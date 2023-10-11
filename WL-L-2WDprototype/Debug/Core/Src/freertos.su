@@ -1,0 +1,5 @@
+../Core/Src/freertos.c:90:6:service_callback	32	static
+../Core/Src/freertos.c:161:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/freertos.c:175:6:MX_FREERTOS_Init	72	static
+../Core/Src/freertos.c:219:6:StartDefaultTask	16	static
+../Core/Src/freertos.c:237:6:StartMicroROSTask	408	static

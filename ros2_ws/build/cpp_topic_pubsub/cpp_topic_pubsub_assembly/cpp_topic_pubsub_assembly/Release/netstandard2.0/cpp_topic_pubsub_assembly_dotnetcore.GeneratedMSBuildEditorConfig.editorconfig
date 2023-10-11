@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = cpp_topic_pubsub_assembly_dotnetcore
+build_property.ProjectDir = /home/osawakousei/ros2_ws/build/cpp_topic_pubsub/cpp_topic_pubsub_assembly/

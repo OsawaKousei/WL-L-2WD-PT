@@ -1,0 +1,223 @@
+[1.073s] Invoking command in '/home/osawakousei/ros2_ws/build/center': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/center:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/center/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/center -- -j8 -l8
+[1.328s] [35m[1mConsolidate compiler generated dependencies of target center_node[0m
+[1.366s] [  5%] Built target center__rosidl_generator_c
+[1.368s] [  7%] Built target center__cpp
+[1.445s] [  8%] Built target center__cs
+[1.478s] [  8%] Built target ament_cmake_python_copy_center
+[1.533s] [ 11%] Built target center_node
+[1.544s] [ 17%] Built target center__rosidl_typesupport_cpp
+[1.642s] [ 23%] Built target center__rosidl_typesupport_fastrtps_c
+[1.683s] [ 29%] Built target center__rosidl_typesupport_introspection_c
+[1.719s] [ 35%] Built target center__rosidl_typesupport_fastrtps_cpp
+[1.739s] [ 36%] [34m[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore center_assembly_dotnetcore.csproj;          /usr/bin/dotnet build center_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/build/center/center_assembly[0m
+[1.742s] [ 42%] Built target center__rosidl_typesupport_c
+[1.772s] [ 48%] Built target center__rosidl_typesupport_introspection_cpp
+[2.009s] [ 54%] Built target center_custom_unity__rosidl_typesupport_c
+[2.043s] [ 60%] Built target center_custom_unity__rosidl_typesupport_fastrtps_c
+[2.046s] [ 66%] Built target center_custom_unity__rosidl_typesupport_introspection_c
+[2.073s] [ 72%] Built target center_srv_add_three_ints__rosidl_typesupport_fastrtps_c
+[2.120s] [ 77%] Built target center_srv_add_three_ints__rosidl_typesupport_c
+[2.145s] [ 83%] Built target center_srv_add_three_ints__rosidl_typesupport_introspection_c
+[2.168s] cmake version 3.22.1
+[2.169s] 
+[2.169s] CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[2.190s] [ 83%] Built target center
+[2.366s] [ 85%] Built target center__py
+[2.569s] [ 89%] Built target center__rosidl_generator_py
+[2.806s] [ 95%] Built target center__rosidl_typesupport_introspection_c__pyext
+[2.809s] [ 92%] Built target center__rosidl_typesupport_fastrtps_c__pyext
+[2.838s] [ 98%] Built target center__rosidl_typesupport_c__pyext
+[3.161s] running egg_info
+[3.163s] writing center.egg-info/PKG-INFO
+[3.166s] writing dependency_links to center.egg-info/dependency_links.txt
+[3.166s] writing top-level names to center.egg-info/top_level.txt
+[3.174s] reading manifest file 'center.egg-info/SOURCES.txt'
+[3.176s] writing manifest file 'center.egg-info/SOURCES.txt'
+[3.277s] [ 98%] Built target ament_cmake_python_build_center_egg
+[5.887s] [?1h=  Determining projects to restore...
+[6.493s]   All projects are up-to-date for restore.
+[7.666s] [?1h=.NET 向け Microsoft (R) Build Engine バージョン 17.0.1+b177f8fa7
+[7.667s] Copyright (C) Microsoft Corporation.All rights reserved.
+[7.668s] 
+[9.994s]   Determining projects to restore...
+[10.675s]   All projects are up-to-date for restore.
+[11.461s]   center_assembly_dotnetcore -> /home/osawakousei/ros2_ws/build/center/netstandard2.0/center_assembly.dll
+[11.493s] [39;49m[92m
+[11.495s] ビルドに成功しました。
+[11.495s] [39;49m    0 個の警告
+[11.495s] [39;49m    0 エラー
+[11.496s] [39;49m
+[11.496s] 経過時間 00:00:03.13
+[11.623s] [100%] Built target center_assembly
+[11.694s] Invoked command in '/home/osawakousei/ros2_ws/build/center' returned '0': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/center:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/center/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/osawakousei/ros2_ws/build/center -- -j8 -l8
+[12.866s] Invoking command in '/home/osawakousei/ros2_ws/build/center': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/center:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/center/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/center
+[12.913s] -- Install configuration: ""
+[12.915s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/rosidl_interfaces/center
+[12.916s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+[12.918s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+[12.923s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+[12.924s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__type_support.h
+[12.926s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__functions.c
+[12.926s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__struct.h
+[12.933s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__functions.h
+[12.933s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/add_three_ints.h
+[12.934s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+[12.934s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_generator_c__visibility_control.h
+[12.934s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+[12.935s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__struct.h
+[12.935s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__type_support.h
+[12.936s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__functions.c
+[12.936s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__functions.h
+[12.937s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/custom_unity.h
+[12.937s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/library_path.sh
+[12.938s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/library_path.dsv
+[12.938s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_generator_c.so
+[12.938s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+[12.939s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+[12.939s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+[12.948s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[12.949s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+[12.949s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+[12.949s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h
+[12.950s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.950s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_fastrtps_c.so
+[12.950s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+[12.951s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+[12.951s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+[12.951s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__traits.hpp
+[12.952s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__struct.hpp
+[12.952s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__builder.hpp
+[12.952s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/add_three_ints.hpp
+[12.953s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+[12.953s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/custom_unity.hpp
+[12.953s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+[12.953s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__builder.hpp
+[12.954s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__struct.hpp
+[12.954s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__traits.hpp
+[12.954s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+[12.954s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+[12.955s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+[12.955s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[12.955s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/dds_fastrtps
+[12.955s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+[12.955s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.956s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+[12.956s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp
+[12.956s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/dds_fastrtps
+[12.957s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_fastrtps_cpp.so
+[12.957s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+[12.957s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+[12.957s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+[12.958s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__type_support.c
+[12.958s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[12.958s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+[12.958s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.958s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+[12.959s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h
+[12.959s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__type_support.c
+[12.959s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_introspection_c.so
+[12.959s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_c.so
+[12.960s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+[12.960s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+[12.960s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+[12.960s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__type_support.cpp
+[12.961s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[12.961s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+[12.961s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+[12.961s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp
+[12.962s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__type_support.cpp
+[12.962s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_introspection_cpp.so
+[12.962s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_cpp.so
+[12.962s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_c_native.so
+[12.962s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so
+[12.963s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so
+[12.963s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so
+[12.963s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so
+[12.963s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so
+[12.964s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet
+[12.964s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/ros2cs_common.dll
+[12.964s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.dll
+[12.964s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.deps.json
+[12.964s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet
+[12.965s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/ros2cs_common.dll
+[12.965s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.dll
+[12.965s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.deps.json
+[12.965s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/pythonpath.sh
+[12.966s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/pythonpath.dsv
+[12.966s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info
+[12.966s] -- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/top_level.txt
+[12.966s] -- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.966s] -- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.967s] -- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/PKG-INFO
+[12.967s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center
+[12.967s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.967s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv
+[12.968s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints.py
+[12.968s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/__init__.py
+[12.968s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints_s.c
+[12.968s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.968s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.969s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/libcenter__rosidl_generator_py.so
+[12.969s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/__init__.py
+[12.969s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_c.c
+[12.969s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.970s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_introspection_c.c
+[12.970s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg
+[12.970s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity_s.c
+[12.970s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity.py
+[12.971s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/__init__.py
+[13.085s] Listing '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center'...
+[13.085s] Listing '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg'...
+[13.085s] Listing '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv'...
+[13.098s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.100s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.101s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.103s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_generator_py.so
+[13.104s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/msg/CustomUnity.idl
+[13.107s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts.idl
+[13.107s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/msg/CustomUnity.msg
+[13.108s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts.srv
+[13.108s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts_Request.msg
+[13.108s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts_Response.msg
+[13.109s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/center/center_node
+[13.111s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/package_run_dependencies/center
+[13.111s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/parent_prefix_path/center
+[13.112s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/ament_prefix_path.sh
+[13.112s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/ament_prefix_path.dsv
+[13.112s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/path.sh
+[13.124s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/path.dsv
+[13.125s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.bash
+[13.125s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.sh
+[13.125s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.zsh
+[13.126s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.dsv
+[13.126s] -- Installing: /home/osawakousei/ros2_ws/install/center/share/center/package.dsv
+[13.126s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/packages/center
+[13.126s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_cExport.cmake
+[13.127s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_cExport-noconfig.cmake
+[13.127s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport.cmake
+[13.127s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.128s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_cppExport.cmake
+[13.130s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.131s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.131s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport.cmake
+[13.131s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.131s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cExport.cmake
+[13.132s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cExport-noconfig.cmake
+[13.132s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport.cmake
+[13.132s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.132s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cppExport.cmake
+[13.133s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cppExport-noconfig.cmake
+[13.133s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_pyExport.cmake
+[13.133s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_pyExport-noconfig.cmake
+[13.133s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/rosidl_cmake-extras.cmake
+[13.134s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.134s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_libraries-extras.cmake
+[13.134s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_targets-extras.cmake
+[13.135s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.135s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.136s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.136s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_assemblies-extras.cmake
+[13.137s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/centerConfig.cmake
+[13.137s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/centerConfig-version.cmake
+[13.138s] -- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/package.xml
+[13.142s] Invoked command in '/home/osawakousei/ros2_ws/build/center' returned '0': CMAKE_PREFIX_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/center:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/center/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/osawakousei/ros2_ws/build/center

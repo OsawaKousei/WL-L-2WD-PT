@@ -1,0 +1,7 @@
+{
+  "package_name": "center",
+  "non_idl_tuples": [
+    "/home/osawakousei/ros2_ws/src/center:msg/CustomUnity.msg",
+    "/home/osawakousei/ros2_ws/src/center:srv/AddThreeInts.srv"
+  ]
+}

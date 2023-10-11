@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+   <TargetFramework>netstandard2.0</TargetFramework>
+   <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+   <OutputType>library</OutputType>
+   <OutputPath>/home/osawakousei/ros2_ws/build/cpp_server_client/</OutputPath>
+   <AssemblyName>cpp_server_client_assembly</AssemblyName>
+   <Configuration>Release</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>None</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="/home/osawakousei/ros2_ws/build/cpp_server_client/rosidl_generator_cs/cpp_server_client/srv/practice_srv.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="/home/osawakousei/ros2_ws/install/ros2cs_common/lib/dotnet/ros2cs_common.dll" />
+  </ItemGroup>
+
+   <ItemGroup>
+    
+  </ItemGroup>
+
+  <PropertyGroup>
+     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+     <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+  </PropertyGroup>
+</Project>

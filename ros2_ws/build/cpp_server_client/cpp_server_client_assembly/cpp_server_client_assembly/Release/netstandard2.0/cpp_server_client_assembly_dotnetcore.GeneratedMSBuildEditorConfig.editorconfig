@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = cpp_server_client_assembly_dotnetcore
+build_property.ProjectDir = /home/osawakousei/ros2_ws/build/cpp_server_client/cpp_server_client_assembly/

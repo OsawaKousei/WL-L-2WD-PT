@@ -1,0 +1,358 @@
+[1.421s] Invoking command in '/home/osawakousei/ros2_ws/src/center/build/center': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/center -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/center/install/center
+[1.597s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.851s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.073s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.098s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.147s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.243s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.798s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.814s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.993s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.984s] -- Found rosidl_default_generators: 1.2.0 (/home/osawakousei/ros2_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[6.088s] -- Found custom_test_msgs: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/cmake)
+[6.197s] -- Found custom_message_unity: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake)
+[6.305s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.440s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.251s] -- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)
+[12.255s] -- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+[13.605s] -- Found .NET Core: 6.0.122
+[13.605s] -- Using Framework: netstandard2.0
+[13.606s] -- Using Framework: netstandard2.0
+[13.606s] -- Using Runtime: linux-x64
+[13.611s] -- Found ros2cs_common: 2.0.0 (/home/osawakousei/ros2_ws/install/ros2cs_common/share/ros2cs_common/cmake)
+[13.755s] -- Generating C# code for ROS interfaces /home/osawakousei/ros2_ws/src/center/build/center/rosidl_generator_cs/center/msg/custom_unity.cs and /home/osawakousei/ros2_ws/src/center/build/center/rosidl_generator_cs/center/srv/add_three_ints.cs
+[13.755s] -- Adding custom target
+[13.760s] [0mLink libraries: center__rosidl_typesupport_c[0m
+[13.783s] [0mLink libraries: center__rosidl_typesupport_introspection_c[0m
+[13.804s] [0mLink libraries: center__rosidl_typesupport_fastrtps_c[0m
+[13.825s] [0mLink libraries: center__rosidl_typesupport_c[0m
+[13.845s] [0mLink libraries: center__rosidl_typesupport_introspection_c[0m
+[13.865s] [0mLink libraries: center__rosidl_typesupport_fastrtps_c[0m
+[13.882s] [0mInstall targets[0m
+[14.110s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[14.316s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.317s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[14.318s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[14.853s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.857s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/center/build/center/rosidl_generator_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/center/build/center/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/center/build/center/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/center/build/center/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/center/build/center/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/osawakousei/ros2_ws/src/center/build/center/rosidl_typesupport_introspection_cpp>;/home/osawakousei/ros2_ws/src/center/build/center/rosidl_generator_c;/home/osawakousei/ros2_ws/src/center/build/center/rosidl_generator_cs;/home/osawakousei/ros2_ws/src/center/build/center/rosidl_generator_py
+[14.858s] -- Configured cppcheck exclude dirs and/or files: 
+[14.900s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.981s] -- Added test 'lint_cmake' to check CMake code style
+[15.023s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.342s] -- Added test 'uncrustify' to check C / C++ code style
+[15.342s] -- Configured uncrustify additional arguments: 
+[15.384s] -- Added test 'xmllint' to check XML markup files
+[15.424s] -- Configuring done
+[16.102s] -- Generating done
+[16.138s] -- Build files have been written to: /home/osawakousei/ros2_ws/src/center/build/center
+[16.180s] Invoked command in '/home/osawakousei/ros2_ws/src/center/build/center' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/center -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/center/install/center
+[16.195s] Invoking command in '/home/osawakousei/ros2_ws/src/center/build/center': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/center/build/center -- -j12 -l12
+[16.841s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.042s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.060s] [  4%] [34m[1mGenerating C# code for ROS interfaces[0m
+[17.082s] [  5%] [32mBuilding CXX object CMakeFiles/center_node.dir/src/center_node.cpp.o[0m
+[17.204s] [  5%] Built target ament_cmake_python_copy_center
+[18.981s] [  7%] [32mBuilding C object CMakeFiles/center__rosidl_generator_c.dir/rosidl_generator_c/center/srv/detail/add_three_ints__functions.c.o[0m
+[19.001s] [  8%] [32mBuilding C object CMakeFiles/center__rosidl_generator_c.dir/rosidl_generator_c/center/msg/detail/custom_unity__functions.c.o[0m
+[19.026s] [  8%] Built target center__cpp
+[19.260s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.270s] [ 10%] Built target center__cs
+[19.336s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.369s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.733s] running egg_info
+[19.735s] creating center.egg-info
+[19.735s] writing center.egg-info/PKG-INFO
+[19.737s] writing dependency_links to center.egg-info/dependency_links.txt
+[19.738s] writing top-level names to center.egg-info/top_level.txt
+[19.743s] writing manifest file 'center.egg-info/SOURCES.txt'
+[19.769s] reading manifest file 'center.egg-info/SOURCES.txt'
+[19.769s] writing manifest file 'center.egg-info/SOURCES.txt'
+[19.785s] [ 14%] [32m[1mLinking C shared library libcenter__rosidl_generator_c.so[0m
+[19.810s] [ 16%] [34m[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore center_assembly_dotnetcore.csproj;          /usr/bin/dotnet build center_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/src/center/build/center/center_assembly[0m
+[20.047s] [ 16%] Built target ament_cmake_python_build_center_egg
+[20.501s] [ 16%] Built target center__rosidl_generator_c
+[20.599s] cmake version 3.22.1
+[20.600s] 
+[20.601s] CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[20.801s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.845s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.905s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.332s] [ 22%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/center/msg/custom_unity__type_support.cpp.o[0m
+[21.400s] [ 23%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/center/srv/add_three_ints__type_support.cpp.o[0m
+[21.546s] [ 26%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/center/msg/detail/custom_unity__type_support.cpp.o[0m
+[21.546s] [ 26%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/center/srv/detail/add_three_ints__type_support.cpp.o[0m
+[21.691s] [ 28%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/center/msg/detail/dds_fastrtps/custom_unity__type_support.cpp.o[0m
+[21.691s] [ 29%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/center/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[23.758s] [?1h=[ 31%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_c.dir/rosidl_typesupport_c/center/msg/custom_unity__type_support.cpp.o[0m
+[23.760s] [ 32%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_c.dir/rosidl_typesupport_c/center/srv/add_three_ints__type_support.cpp.o[0m
+[24.122s] [ 34%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/center/msg/detail/custom_unity__type_support.c.o[0m
+[24.173s] [ 35%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/center/msg/detail/custom_unity__type_support_c.cpp.o[0m
+[24.820s] [ 37%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_c.so[0m
+[24.943s] [ 38%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/center/srv/detail/add_three_ints__type_support.c.o[0m
+[24.987s] [ 40%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/center/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[25.424s] [ 41%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_cpp.so[0m
+[26.100s] [ 43%] [32m[1mLinking C shared library libcenter__rosidl_typesupport_introspection_c.so[0m
+[26.179s] [ 43%] Built target center__rosidl_typesupport_c
+[26.855s] [ 43%] Built target center__rosidl_typesupport_cpp
+[27.085s] [ 44%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/center/msg/custom_unity.ep.rosidl_typesupport_c.c.o[0m
+[27.088s] [ 46%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/center/srv/add_three_ints.ep.rosidl_typesupport_c.c.o[0m
+[27.095s] [ 47%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_introspection_cpp.so[0m
+[27.178s] [ 49%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/center/msg/custom_unity_s.c.o[0m
+[27.290s] [ 52%] Built target center__rosidl_typesupport_introspection_c
+[27.308s] [ 52%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/center/srv/add_three_ints_s.c.o[0m
+[27.309s] [ 52%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.232s] [ 53%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.233s] [ 55%] [32m[1mLinking C shared library rosidl_generator_cs/center/msg/libcenter_custom_unity__rosidl_typesupport_c_native.so[0m
+[28.233s] [ 56%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.262s] [ 58%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/srv/add_three_ints_s.c.o[0m
+[28.357s] [ 59%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/msg/custom_unity_s.c.o[0m
+[28.397s] [ 61%] [32m[1mLinking C shared library rosidl_generator_cs/center/srv/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so[0m
+[28.475s] [ 61%] Built target center__rosidl_typesupport_introspection_cpp
+[29.054s] [ 61%] Built target center__rosidl_typesupport_fastrtps_cpp
+[29.173s] [ 62%] Built target center_custom_unity__rosidl_typesupport_c
+[29.280s] [ 64%] [32m[1mLinking C shared library rosidl_generator_cs/center/msg/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so[0m
+[29.313s] [ 65%] [32m[1mLinking C shared library rosidl_generator_cs/center/srv/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so[0m
+[29.364s] [ 67%] Built target center_srv_add_three_ints__rosidl_typesupport_c
+[29.737s]   Determining projects to restore...
+[29.758s] [ 68%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_fastrtps_c.so[0m
+[29.964s] [ 70%] Built target center_custom_unity__rosidl_typesupport_introspection_c
+[29.996s] [ 71%] Built target center_srv_add_three_ints__rosidl_typesupport_introspection_c
+[30.761s] [ 71%] Built target center__rosidl_typesupport_fastrtps_c
+[31.203s]   Restored /home/osawakousei/ros2_ws/src/center/build/center/center_assembly/center_assembly_dotnetcore.csproj (in 668 ms).
+[31.246s] [ 73%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.254s] [ 74%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.277s] [ 74%] Built target center
+[31.278s] [ 76%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/msg/custom_unity_s.c.o[0m
+[31.305s] [ 77%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/srv/add_three_ints_s.c.o[0m
+[31.735s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.990s] [ 80%] [32m[1mLinking C shared library rosidl_generator_cs/center/msg/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so[0m
+[32.048s] [ 82%] [32m[1mLinking C shared library rosidl_generator_cs/center/srv/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so[0m
+[32.587s] [ 83%] Built target center_custom_unity__rosidl_typesupport_fastrtps_c
+[32.628s] [ 85%] Built target center_srv_add_three_ints__rosidl_typesupport_fastrtps_c
+[33.164s] [?1h=.NET 向け Microsoft (R) Build Engine バージョン 17.0.1+b177f8fa7
+[33.165s] Copyright (C) Microsoft Corporation.All rights reserved.
+[33.165s] 
+[33.824s] [ 85%] Built target center__py
+[34.241s] [ 86%] [32mBuilding C object CMakeFiles/center__rosidl_generator_py.dir/rosidl_generator_py/center/msg/_custom_unity_s.c.o[0m
+[34.247s] [ 88%] [32mBuilding C object CMakeFiles/center__rosidl_generator_py.dir/rosidl_generator_py/center/srv/_add_three_ints_s.c.o[0m
+[35.309s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/center/libcenter__rosidl_generator_py.so[0m
+[35.916s] [ 89%] Built target center__rosidl_generator_py
+[36.269s]   Determining projects to restore...
+[36.397s] [ 91%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/center/_center_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[36.398s] [ 92%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/center/_center_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[36.403s] [ 94%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/center/_center_s.ep.rosidl_typesupport_c.c.o[0m
+[37.299s]   All projects are up-to-date for restore.
+[37.587s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.672s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[37.770s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[38.283s] [ 98%] Built target center__rosidl_typesupport_c__pyext
+[38.374s] [ 98%] Built target center__rosidl_typesupport_introspection_c__pyext
+[38.469s] [ 98%] Built target center__rosidl_typesupport_fastrtps_c__pyext
+[44.481s]   center_assembly_dotnetcore -> /home/osawakousei/ros2_ws/src/center/build/center/netstandard2.0/center_assembly.dll
+[44.501s] [39;49m[92m
+[44.501s] ビルドに成功しました。
+[44.505s] [39;49m    0 個の警告
+[44.506s] [39;49m    0 エラー
+[44.506s] [39;49m
+[44.507s] 経過時間 00:00:10.51
+[44.760s] [ 98%] Built target center_assembly
+[64.044s] [100%] [32m[1mLinking CXX executable center_node[0m
+[67.919s] [100%] Built target center_node
+[68.094s] Invoked command in '/home/osawakousei/ros2_ws/src/center/build/center' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/osawakousei/ros2_ws/src/center/build/center -- -j12 -l12
+[72.184s] Invoking command in '/home/osawakousei/ros2_ws/src/center/build/center': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/center/build/center
+[72.314s] -- Install configuration: ""
+[72.317s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/rosidl_interfaces/center
+[72.320s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center
+[72.324s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv
+[72.327s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail
+[72.328s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__type_support.h
+[72.332s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__functions.c
+[72.335s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__struct.h
+[72.337s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__functions.h
+[72.340s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/add_three_ints.h
+[72.343s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg
+[72.346s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_generator_c__visibility_control.h
+[72.347s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail
+[72.351s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__struct.h
+[72.352s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__type_support.h
+[72.354s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__functions.c
+[72.358s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__functions.h
+[72.361s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/custom_unity.h
+[72.366s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/library_path.sh
+[72.370s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/library_path.dsv
+[72.373s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_generator_c.so
+[72.388s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_generator_c.so" to ""
+[72.389s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center
+[72.391s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv
+[72.393s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail
+[72.394s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[72.395s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg
+[72.397s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail
+[72.398s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h
+[72.400s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[72.404s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_fastrtps_c.so
+[72.419s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_fastrtps_c.so" to ""
+[72.420s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center
+[72.421s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv
+[72.422s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail
+[72.423s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__traits.hpp
+[72.424s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__struct.hpp
+[72.426s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__builder.hpp
+[72.427s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/add_three_ints.hpp
+[72.430s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg
+[72.430s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/custom_unity.hpp
+[72.432s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail
+[72.433s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__builder.hpp
+[72.435s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__struct.hpp
+[72.437s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__traits.hpp
+[72.439s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center
+[72.440s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv
+[72.441s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail
+[72.444s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[72.445s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/dds_fastrtps
+[72.446s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg
+[72.448s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[72.449s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail
+[72.451s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp
+[72.452s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/dds_fastrtps
+[72.453s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_fastrtps_cpp.so
+[72.466s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_fastrtps_cpp.so" to ""
+[72.467s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center
+[72.468s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv
+[72.469s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail
+[72.469s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__type_support.c
+[72.471s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[72.474s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg
+[72.474s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[72.476s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail
+[72.477s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h
+[72.478s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__type_support.c
+[72.481s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_introspection_c.so
+[72.494s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_introspection_c.so" to ""
+[72.494s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_c.so
+[72.506s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_c.so" to ""
+[72.507s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center
+[72.508s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv
+[72.509s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail
+[72.510s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__type_support.cpp
+[72.514s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[72.516s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg
+[72.517s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail
+[72.517s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp
+[72.521s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__type_support.cpp
+[72.522s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_introspection_cpp.so
+[72.531s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_introspection_cpp.so" to ""
+[72.533s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_cpp.so
+[72.548s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_cpp.so" to ""
+[72.549s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_c_native.so
+[72.562s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_c_native.so" to ""
+[72.563s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so
+[72.575s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so" to ""
+[72.576s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so
+[72.589s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so" to ""
+[72.590s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so
+[72.603s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so" to ""
+[72.605s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so
+[72.617s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so" to ""
+[72.619s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so
+[72.630s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so" to ""
+[72.631s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet
+[72.633s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/ros2cs_common.dll
+[72.635s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.dll
+[72.637s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.deps.json
+[72.639s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet
+[72.640s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/ros2cs_common.dll
+[72.641s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.dll
+[72.642s] -- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.deps.json
+[72.642s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/pythonpath.sh
+[72.644s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/pythonpath.dsv
+[72.646s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info
+[72.648s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/top_level.txt
+[72.650s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/SOURCES.txt
+[72.651s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/dependency_links.txt
+[72.653s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/PKG-INFO
+[72.655s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center
+[72.657s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_fastrtps_c.c
+[72.658s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv
+[72.660s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints.py
+[72.662s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/__init__.py
+[72.664s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints_s.c
+[72.666s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[72.668s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[72.671s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/libcenter__rosidl_generator_py.so
+[72.673s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/__init__.py
+[72.675s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_c.c
+[72.677s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[72.679s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_introspection_c.c
+[72.681s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg
+[72.682s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity_s.c
+[72.684s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity.py
+[72.686s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/__init__.py
+[73.013s] Listing '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center'...
+[73.014s] Compiling '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/__init__.py'...
+[73.015s] Listing '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg'...
+[73.016s] Compiling '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/__init__.py'...
+[73.017s] Compiling '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity.py'...
+[73.017s] Listing '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv'...
+[73.018s] Compiling '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/__init__.py'...
+[73.018s] Compiling '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints.py'...
+[73.031s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[73.042s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[73.049s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[73.061s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[73.067s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[73.081s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[73.081s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_generator_py.so
+[73.094s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_generator_py.so" to ""
+[73.096s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/msg/CustomUnity.idl
+[73.099s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts.idl
+[73.101s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/msg/CustomUnity.msg
+[73.103s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts.srv
+[73.105s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts_Request.msg
+[73.107s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts_Response.msg
+[73.111s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/lib/center/center_node
+[73.215s] -- Set runtime path of "/home/osawakousei/ros2_ws/src/center/install/center/lib/center/center_node" to ""
+[73.216s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/package_run_dependencies/center
+[73.221s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/parent_prefix_path/center
+[73.223s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/ament_prefix_path.sh
+[73.226s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/ament_prefix_path.dsv
+[73.227s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/path.sh
+[73.229s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/path.dsv
+[73.231s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.bash
+[73.234s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.sh
+[73.236s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.zsh
+[73.238s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.dsv
+[73.241s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/package.dsv
+[73.244s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/packages/center
+[73.246s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_cExport.cmake
+[73.249s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_cExport-noconfig.cmake
+[73.251s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport.cmake
+[73.253s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[73.255s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_cppExport.cmake
+[73.258s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport.cmake
+[73.260s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[73.262s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport.cmake
+[73.265s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[73.267s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cExport.cmake
+[73.269s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cExport-noconfig.cmake
+[73.271s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport.cmake
+[73.273s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[73.276s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cppExport.cmake
+[73.278s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cppExport-noconfig.cmake
+[73.280s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_pyExport.cmake
+[73.283s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_pyExport-noconfig.cmake
+[73.285s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/rosidl_cmake-extras.cmake
+[73.287s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.293s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_libraries-extras.cmake
+[73.296s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_targets-extras.cmake
+[73.299s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[73.303s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.306s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[73.310s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_assemblies-extras.cmake
+[73.314s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/centerConfig.cmake
+[73.317s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/centerConfig-version.cmake
+[73.322s] -- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/package.xml
+[73.347s] Invoked command in '/home/osawakousei/ros2_ws/src/center/build/center' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/osawakousei/ros2_ws/src/center/build/center

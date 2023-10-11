@@ -1,0 +1,358 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_default_generators: 1.2.0 (/home/osawakousei/ros2_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found custom_test_msgs: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_test_msgs/share/custom_test_msgs/cmake)
+-- Found custom_message_unity: 0.0.0 (/home/osawakousei/ros2_ws/install/custom_message_unity/share/custom_message_unity/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_export_assemblies: 0.0.0 (/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies/share/ament_cmake_export_assemblies/cmake)
+-- Found dotnet_cmake_module: 0.0.0 (/home/osawakousei/ros2_ws/install/dotnet_cmake_module/share/dotnet_cmake_module/cmake)
+-- Found .NET Core: 6.0.122
+-- Using Framework: netstandard2.0
+-- Using Framework: netstandard2.0
+-- Using Runtime: linux-x64
+-- Found ros2cs_common: 2.0.0 (/home/osawakousei/ros2_ws/install/ros2cs_common/share/ros2cs_common/cmake)
+-- Generating C# code for ROS interfaces /home/osawakousei/ros2_ws/build/center/rosidl_generator_cs/center/msg/custom_unity.cs and /home/osawakousei/ros2_ws/build/center/rosidl_generator_cs/center/srv/add_three_ints.cs
+-- Adding custom target
+[0mLink libraries: center__rosidl_typesupport_c[0m
+[0mLink libraries: center__rosidl_typesupport_introspection_c[0m
+[0mLink libraries: center__rosidl_typesupport_fastrtps_c[0m
+[0mLink libraries: center__rosidl_typesupport_c[0m
+[0mLink libraries: center__rosidl_typesupport_introspection_c[0m
+[0mLink libraries: center__rosidl_typesupport_fastrtps_c[0m
+[0mInstall targets[0m
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/osawakousei/ros2_ws/build/center
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_generator_c[0m
+[  1%] Built target center__cs
+[  2%] Built target center__cpp
+[  4%] [32mBuilding C object CMakeFiles/center__rosidl_generator_c.dir/rosidl_generator_c/center/srv/detail/add_three_ints__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/center__rosidl_generator_c.dir/rosidl_generator_c/center/msg/detail/custom_unity__functions.c.o[0m
+[35m[1mConsolidate compiler generated dependencies of target center_node[0m
+[  7%] [32mBuilding CXX object CMakeFiles/center_node.dir/src/center_node.cpp.o[0m
+[  8%] [34m[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore center_assembly_dotnetcore.csproj;          /usr/bin/dotnet build center_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/build/center/center_assembly[0m
+[ 10%] [32m[1mLinking C shared library libcenter__rosidl_generator_c.so[0m
+cmake version 3.22.1
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+[ 11%] Built target center__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_introspection_cpp[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/center/msg/detail/custom_unity__type_support.cpp.o[0m
+[?1h=[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_introspection_c[0m
+[ 14%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/center/msg/detail/custom_unity__type_support.c.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/center/srv/detail/add_three_ints__type_support.cpp.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/center/srv/detail/add_three_ints__type_support.c.o[0m
+[ 19%] [32m[1mLinking C shared library libcenter__rosidl_typesupport_introspection_c.so[0m
+[ 20%] Built target center__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_fastrtps_cpp[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/center/msg/detail/custom_unity__type_support_c.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/center/msg/detail/dds_fastrtps/custom_unity__type_support.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_introspection_cpp.so[0m
+[ 26%] Built target center__rosidl_typesupport_introspection_cpp
+[ 27%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/center/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_c[0m
+  Determining projects to restore...
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_cpp[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_c.dir/rosidl_typesupport_c/center/msg/custom_unity__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/center/msg/custom_unity__type_support.cpp.o[0m
+[ 30%] Built target ament_cmake_python_copy_center
+[ 32%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/center/srv/add_three_ints__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_c.dir/rosidl_typesupport_c/center/srv/add_three_ints__type_support.cpp.o[0m
+  All projects are up-to-date for restore.
+[ 35%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_c.so[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/center__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/center/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[ 38%] Built target center__rosidl_typesupport_c
+[ 39%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_cpp.so[0m
+[ 41%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_fastrtps_c.so[0m
+[ 42%] Built target center__rosidl_typesupport_cpp
+running egg_info
+writing center.egg-info/PKG-INFO
+writing dependency_links to center.egg-info/dependency_links.txt
+writing top-level names to center.egg-info/top_level.txt
+reading manifest file 'center.egg-info/SOURCES.txt'
+writing manifest file 'center.egg-info/SOURCES.txt'
+[?1h=.NET 向け Microsoft (R) Build Engine バージョン 17.0.1+b177f8fa7
+Copyright (C) Microsoft Corporation.All rights reserved.
+
+[ 44%] Built target center__rosidl_typesupport_fastrtps_c
+[ 44%] Built target ament_cmake_python_build_center_egg
+[ 45%] [32m[1mLinking CXX shared library libcenter__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 47%] Built target center__rosidl_typesupport_fastrtps_cpp
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  center_assembly_dotnetcore -> /home/osawakousei/ros2_ws/build/center/netstandard2.0/center_assembly.dll
+[39;49m[92m
+ビルドに成功しました。
+[39;49m    0 個の警告
+[39;49m    0 エラー
+[39;49m
+経過時間 00:00:03.36
+[ 48%] Built target center_assembly
+[ 50%] [32m[1mLinking CXX executable center_node[0m
+[ 50%] Built target center_node
+[35m[1mConsolidate compiler generated dependencies of target center_srv_add_three_ints__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target center_srv_add_three_ints__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target center_srv_add_three_ints__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target center_custom_unity__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target center_custom_unity__rosidl_typesupport_introspection_c[0m
+[ 50%] Built target center
+[ 51%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/srv/add_three_ints.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/center/srv/add_three_ints_s.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/msg/custom_unity.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/srv/add_three_ints.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_c.dir/rosidl_generator_cs/center/srv/add_three_ints.ep.rosidl_typesupport_c.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/msg/custom_unity.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/msg/custom_unity_s.c.o[0m
+[35m[1mConsolidate compiler generated dependencies of target center_custom_unity__rosidl_typesupport_c[0m
+[ 61%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/msg/custom_unity_s.c.o[0m
+[ 63%] [32m[1mLinking C shared library rosidl_generator_cs/center/srv/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so[0m
+[ 64%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_introspection_c.dir/rosidl_generator_cs/center/srv/add_three_ints_s.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/center_srv_add_three_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_cs/center/srv/add_three_ints_s.c.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/center/msg/custom_unity.ep.rosidl_typesupport_c.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/center_custom_unity__rosidl_typesupport_c.dir/rosidl_generator_cs/center/msg/custom_unity_s.c.o[0m
+[ 70%] [32m[1mLinking C shared library rosidl_generator_cs/center/msg/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so[0m
+[ 72%] Built target center_srv_add_three_ints__rosidl_typesupport_c
+[ 73%] [32m[1mLinking C shared library rosidl_generator_cs/center/srv/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so[0m
+[ 75%] [32m[1mLinking C shared library rosidl_generator_cs/center/msg/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so[0m
+[ 76%] [32m[1mLinking C shared library rosidl_generator_cs/center/msg/libcenter_custom_unity__rosidl_typesupport_c_native.so[0m
+[ 77%] [32m[1mLinking C shared library rosidl_generator_cs/center/srv/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so[0m
+[ 79%] Built target center_custom_unity__rosidl_typesupport_introspection_c
+[ 80%] Built target center__py
+[ 82%] Built target center_srv_add_three_ints__rosidl_typesupport_introspection_c
+[ 85%] Built target center_custom_unity__rosidl_typesupport_c
+[ 85%] Built target center_custom_unity__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_generator_py[0m
+[ 86%] Built target center_srv_add_three_ints__rosidl_typesupport_fastrtps_c
+[ 89%] [32mBuilding C object CMakeFiles/center__rosidl_generator_py.dir/rosidl_generator_py/center/msg/_custom_unity_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/center__rosidl_generator_py.dir/rosidl_generator_py/center/srv/_add_three_ints_s.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/center/libcenter__rosidl_generator_py.so[0m
+[ 91%] Built target center__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 94%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/center/_center_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/center/_center_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/center__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/center/_center_s.ep.rosidl_typesupport_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target center__rosidl_typesupport_introspection_c__pyext
+[100%] Built target center__rosidl_typesupport_c__pyext
+[100%] Built target center__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/rosidl_interfaces/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__type_support.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__functions.c
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__struct.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__functions.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/add_three_ints.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__struct.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__type_support.h
+-- Installing: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__functions.c
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__functions.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/custom_unity.h
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/environment/library_path.sh
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/environment/library_path.dsv
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_generator_c.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__traits.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__struct.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__builder.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/add_three_ints.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/custom_unity.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+-- Installing: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__builder.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__struct.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__traits.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/dds_fastrtps
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/dds_fastrtps
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__type_support.c
+-- Installing: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h
+-- Installing: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__type_support.c
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_c.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__type_support.cpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/include/center/center/msg/detail/custom_unity__type_support.cpp
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_c_native.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_c_native.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so" to ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/dotnet/ros2cs_common.dll
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.dll
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.deps.json
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/ros2cs_common.dll
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.dll
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/lib/dotnet/center_assembly.deps.json
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/environment/pythonpath.sh
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/environment/pythonpath.dsv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints.py
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/__init__.py
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints_s.c
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/libcenter__rosidl_generator_py.so
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/__init__.py
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity_s.c
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity.py
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/__init__.py
+Listing '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center'...
+Compiling '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/__init__.py'...
+Listing '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg'...
+Compiling '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/__init__.py'...
+Compiling '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity.py'...
+Listing '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv'...
+Compiling '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/__init__.py'...
+Compiling '/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints.py'...
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_generator_py.so
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/libcenter__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/msg/CustomUnity.idl
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts.idl
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/msg/CustomUnity.msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts.srv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts_Request.msg
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/srv/AddThreeInts_Response.msg
+-- Installing: /home/osawakousei/ros2_ws/install/center/lib/center/center_node
+-- Set runtime path of "/home/osawakousei/ros2_ws/install/center/lib/center/center_node" to ""
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/package_run_dependencies/center
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/parent_prefix_path/center
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/environment/ament_prefix_path.sh
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/environment/ament_prefix_path.dsv
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/environment/path.sh
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/environment/path.dsv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.bash
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.sh
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.zsh
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/local_setup.dsv
+-- Installing: /home/osawakousei/ros2_ws/install/center/share/center/package.dsv
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/ament_index/resource_index/packages/center
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/center__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/export_center__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/ament_cmake_export_assemblies-extras.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/centerConfig.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/cmake/centerConfig-version.cmake
+-- Up-to-date: /home/osawakousei/ros2_ws/install/center/share/center/package.xml

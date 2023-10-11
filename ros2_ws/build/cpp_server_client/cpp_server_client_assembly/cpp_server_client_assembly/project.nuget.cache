@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KXU72XGAlR1+6D9aCLfZ16W5SGKPHiwAgLK4ufzHpbkNn7i6uxU4kZOSsC/kKDPl3ljEMXEav5h18gsRHz3H8A==",
+  "success": true,
+  "projectFilePath": "/home/osawakousei/ros2_ws/build/cpp_server_client/cpp_server_client_assembly/cpp_server_client_assembly_dotnetcore.csproj",
+  "expectedPackageFiles": [
+    "/home/osawakousei/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/osawakousei/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

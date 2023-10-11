@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "53mmOJa2F8lxDBonTSYqQ9VojZsR/J48dBg9BVs+w5iCpEtk5qZRYWQlkQva/2wgeHN1QBvRMqXGvx3cwUADNA==",
+  "success": true,
+  "projectFilePath": "/home/osawakousei/ros2_ws/src/center/build/center/center_assembly/center_assembly_dotnetcore.csproj",
+  "expectedPackageFiles": [
+    "/home/osawakousei/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/osawakousei/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

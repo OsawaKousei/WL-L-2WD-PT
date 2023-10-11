@@ -1,0 +1,506 @@
+[0.000000] (-) TimerEvent: {}
+[0.001264] (center) JobQueued: {'identifier': 'center', 'dependencies': OrderedDict()}
+[0.001903] (center) JobStarted: {'identifier': 'center'}
+[0.092668] (-) TimerEvent: {}
+[0.195124] (-) TimerEvent: {}
+[0.296953] (-) TimerEvent: {}
+[0.402868] (-) TimerEvent: {}
+[0.506759] (-) TimerEvent: {}
+[0.608840] (-) TimerEvent: {}
+[0.710958] (-) TimerEvent: {}
+[0.813672] (-) TimerEvent: {}
+[0.916325] (-) TimerEvent: {}
+[1.022939] (-) TimerEvent: {}
+[1.139198] (-) TimerEvent: {}
+[1.244698] (-) TimerEvent: {}
+[1.348006] (-) TimerEvent: {}
+[1.431867] (center) JobProgress: {'identifier': 'center', 'progress': 'cmake'}
+[1.436988] (center) JobProgress: {'identifier': 'center', 'progress': 'build'}
+[1.440506] (center) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osawakousei/ros2_ws/src/center/build/center', '--', '-j12', '-l12'], 'cwd': '/home/osawakousei/ros2_ws/src/center/build/center', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/src/custom_message_unity/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/osawakousei/.dotnet/tools'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1367,unix/kousei-ubuntu:/tmp/.ICE-unix/1367'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e045606_0beb_45d5_853e_6c471b6087df'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/osawakousei/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TV35B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.356'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/center/build/center'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[1.454416] (-) TimerEvent: {}
+[1.556461] (-) TimerEvent: {}
+[1.658123] (-) TimerEvent: {}
+[1.760006] (-) TimerEvent: {}
+[1.862878] (-) TimerEvent: {}
+[1.964765] (-) TimerEvent: {}
+[2.066913] (-) TimerEvent: {}
+[2.171551] (-) TimerEvent: {}
+[2.221517] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_generator_c\x1b[0m\n'}
+[2.235745] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center_node\x1b[0m\n'}
+[2.278940] (-) TimerEvent: {}
+[2.380321] (-) TimerEvent: {}
+[2.422875] (center) StdoutLine: {'line': b'[  1%] Built target center__cpp\n'}
+[2.457518] (center) StdoutLine: {'line': b'[  2%] Built target center__cs\n'}
+[2.480837] (-) TimerEvent: {}
+[2.490943] (center) StdoutLine: {'line': b'[  8%] Built target center__rosidl_generator_c\n'}
+[2.581387] (-) TimerEvent: {}
+[2.629279] (center) StdoutLine: {'line': b'[ 11%] Built target center_node\n'}
+[2.646377] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.648510] (center) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_center\n'}
+[2.683313] (-) TimerEvent: {}
+[2.697937] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.698764] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.783892] (-) TimerEvent: {}
+[2.885828] (-) TimerEvent: {}
+[2.941330] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.946626] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.953506] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_c\x1b[0m\n'}
+[2.988967] (-) TimerEvent: {}
+[3.008773] (center) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1m/usr/bin/cmake;-version;/usr/bin/dotnet restore center_assembly_dotnetcore.csproj;          /usr/bin/dotnet build center_assembly_dotnetcore.csproj -> /home/osawakousei/ros2_ws/src/center/build/center/center_assembly\x1b[0m\n'}
+[3.058400] (center) StdoutLine: {'line': b'[ 19%] Built target center__rosidl_typesupport_cpp\n'}
+[3.090076] (-) TimerEvent: {}
+[3.105565] (center) StdoutLine: {'line': b'[ 25%] Built target center__rosidl_typesupport_fastrtps_cpp\n'}
+[3.121225] (center) StdoutLine: {'line': b'[ 31%] Built target center__rosidl_typesupport_introspection_cpp\n'}
+[3.190915] (-) TimerEvent: {}
+[3.203250] (center) StdoutLine: {'line': b'[ 37%] Built target center__rosidl_typesupport_c\n'}
+[3.266097] (center) StdoutLine: {'line': b'[ 43%] Built target center__rosidl_typesupport_introspection_c\n'}
+[3.291439] (-) TimerEvent: {}
+[3.307974] (center) StdoutLine: {'line': b'[ 49%] Built target center__rosidl_typesupport_fastrtps_c\n'}
+[3.409119] (-) TimerEvent: {}
+[3.510818] (-) TimerEvent: {}
+[3.519062] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center_custom_unity__rosidl_typesupport_c\x1b[0m\n'}
+[3.554338] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center_srv_add_three_ints__rosidl_typesupport_c\x1b[0m\n'}
+[3.579412] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center_custom_unity__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.580278] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center_srv_add_three_ints__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.618481] (-) TimerEvent: {}
+[3.698396] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center_srv_add_three_ints__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.718975] (-) TimerEvent: {}
+[3.824648] (-) TimerEvent: {}
+[3.843612] (center) StdoutLine: {'line': b'[ 55%] Built target center_custom_unity__rosidl_typesupport_c\n'}
+[3.892753] (center) StdoutLine: {'line': b'[ 61%] Built target center_custom_unity__rosidl_typesupport_introspection_c\n'}
+[3.915028] (center) StdoutLine: {'line': b'[ 67%] Built target center_srv_add_three_ints__rosidl_typesupport_c\n'}
+[3.930206] (center) StdoutLine: {'line': b'[ 73%] Built target center_srv_add_three_ints__rosidl_typesupport_introspection_c\n'}
+[3.931098] (-) TimerEvent: {}
+[3.966869] (center) StdoutLine: {'line': b'cmake version 3.22.1\n'}
+[3.967717] (center) StdoutLine: {'line': b'\n'}
+[3.968403] (center) StdoutLine: {'line': b'CMake suite maintained and supported by Kitware (kitware.com/cmake).\n'}
+[4.012328] (center) StdoutLine: {'line': b'[ 79%] Built target center_srv_add_three_ints__rosidl_typesupport_fastrtps_c\n'}
+[4.032014] (-) TimerEvent: {}
+[4.083175] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center_custom_unity__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.133324] (-) TimerEvent: {}
+[4.235320] (-) TimerEvent: {}
+[4.302205] (center) StdoutLine: {'line': b'[ 79%] Built target center\n'}
+[4.335824] (-) TimerEvent: {}
+[4.339078] (center) StdoutLine: {'line': b'[ 85%] Built target center_custom_unity__rosidl_typesupport_fastrtps_c\n'}
+[4.436559] (-) TimerEvent: {}
+[4.538238] (-) TimerEvent: {}
+[4.639818] (-) TimerEvent: {}
+[4.701556] (center) StdoutLine: {'line': b'[ 86%] Built target center__py\n'}
+[4.740322] (-) TimerEvent: {}
+[4.842117] (-) TimerEvent: {}
+[4.904733] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_generator_py\x1b[0m\n'}
+[4.942925] (-) TimerEvent: {}
+[5.044317] (-) TimerEvent: {}
+[5.147684] (-) TimerEvent: {}
+[5.154235] (center) StdoutLine: {'line': b'running egg_info\n'}
+[5.155086] (center) StdoutLine: {'line': b'writing center.egg-info/PKG-INFO\n'}
+[5.160912] (center) StdoutLine: {'line': b'writing dependency_links to center.egg-info/dependency_links.txt\n'}
+[5.161970] (center) StdoutLine: {'line': b'writing top-level names to center.egg-info/top_level.txt\n'}
+[5.170004] (center) StdoutLine: {'line': b"reading manifest file 'center.egg-info/SOURCES.txt'\n"}
+[5.176872] (center) StdoutLine: {'line': b"writing manifest file 'center.egg-info/SOURCES.txt'\n"}
+[5.184410] (center) StdoutLine: {'line': b'[ 91%] Built target center__rosidl_generator_py\n'}
+[5.251703] (-) TimerEvent: {}
+[5.354769] (-) TimerEvent: {}
+[5.412383] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.441089] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.442193] (center) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_center_egg\n'}
+[5.461912] (center) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target center__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.462730] (-) TimerEvent: {}
+[5.564315] (-) TimerEvent: {}
+[5.665857] (-) TimerEvent: {}
+[5.707539] (center) StdoutLine: {'line': b'\x1b[?1h\x1b=[ 94%] Built target center__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.711748] (center) StdoutLine: {'line': b'[ 97%] Built target center__rosidl_typesupport_introspection_c__pyext\n'}
+[5.725566] (center) StdoutLine: {'line': b'[100%] Built target center__rosidl_typesupport_c__pyext\n'}
+[5.766562] (-) TimerEvent: {}
+[5.868524] (-) TimerEvent: {}
+[5.970074] (-) TimerEvent: {}
+[6.071667] (-) TimerEvent: {}
+[6.173091] (-) TimerEvent: {}
+[6.274981] (-) TimerEvent: {}
+[6.376712] (-) TimerEvent: {}
+[6.478304] (-) TimerEvent: {}
+[6.579949] (-) TimerEvent: {}
+[6.683333] (-) TimerEvent: {}
+[6.784650] (-) TimerEvent: {}
+[6.886443] (-) TimerEvent: {}
+[6.988061] (-) TimerEvent: {}
+[7.089477] (-) TimerEvent: {}
+[7.191251] (-) TimerEvent: {}
+[7.292838] (-) TimerEvent: {}
+[7.394801] (-) TimerEvent: {}
+[7.496357] (-) TimerEvent: {}
+[7.598121] (-) TimerEvent: {}
+[7.699680] (-) TimerEvent: {}
+[7.801113] (-) TimerEvent: {}
+[7.902922] (-) TimerEvent: {}
+[8.004468] (-) TimerEvent: {}
+[8.106248] (-) TimerEvent: {}
+[8.207697] (-) TimerEvent: {}
+[8.309281] (-) TimerEvent: {}
+[8.410918] (-) TimerEvent: {}
+[8.513429] (-) TimerEvent: {}
+[8.615190] (-) TimerEvent: {}
+[8.660704] (center) StdoutLine: {'line': b'  Determining projects to restore...\n'}
+[8.718790] (-) TimerEvent: {}
+[8.820253] (-) TimerEvent: {}
+[8.922316] (-) TimerEvent: {}
+[9.024008] (-) TimerEvent: {}
+[9.125880] (-) TimerEvent: {}
+[9.227477] (-) TimerEvent: {}
+[9.328932] (-) TimerEvent: {}
+[9.373541] (center) StdoutLine: {'line': b'  All projects are up-to-date for restore.\n'}
+[9.429605] (-) TimerEvent: {}
+[9.531508] (-) TimerEvent: {}
+[9.633309] (-) TimerEvent: {}
+[9.735368] (-) TimerEvent: {}
+[9.837054] (-) TimerEvent: {}
+[9.938685] (-) TimerEvent: {}
+[10.040203] (-) TimerEvent: {}
+[10.141938] (-) TimerEvent: {}
+[10.244004] (-) TimerEvent: {}
+[10.346000] (-) TimerEvent: {}
+[10.447611] (-) TimerEvent: {}
+[10.549250] (-) TimerEvent: {}
+[10.651351] (-) TimerEvent: {}
+[10.753085] (-) TimerEvent: {}
+[10.854951] (-) TimerEvent: {}
+[10.956490] (-) TimerEvent: {}
+[11.041209] (center) StdoutLine: {'line': b'\x1b[?1h\x1b=.NET \xe5\x90\x91\xe3\x81\x91 Microsoft (R) Build Engine \xe3\x83\x90\xe3\x83\xbc\xe3\x82\xb8\xe3\x83\xa7\xe3\x83\xb3 17.0.1+b177f8fa7\n'}
+[11.042420] (center) StdoutLine: {'line': b'Copyright (C) Microsoft Corporation.All rights reserved.\n'}
+[11.043101] (center) StdoutLine: {'line': b'\n'}
+[11.057245] (-) TimerEvent: {}
+[11.159033] (-) TimerEvent: {}
+[11.260833] (-) TimerEvent: {}
+[11.362761] (-) TimerEvent: {}
+[11.464722] (-) TimerEvent: {}
+[11.566374] (-) TimerEvent: {}
+[11.668108] (-) TimerEvent: {}
+[11.770052] (-) TimerEvent: {}
+[11.872295] (-) TimerEvent: {}
+[11.974112] (-) TimerEvent: {}
+[12.075776] (-) TimerEvent: {}
+[12.178881] (-) TimerEvent: {}
+[12.280209] (-) TimerEvent: {}
+[12.382028] (-) TimerEvent: {}
+[12.483826] (-) TimerEvent: {}
+[12.586025] (-) TimerEvent: {}
+[12.687815] (-) TimerEvent: {}
+[12.792726] (-) TimerEvent: {}
+[12.894902] (-) TimerEvent: {}
+[12.997001] (-) TimerEvent: {}
+[13.099840] (-) TimerEvent: {}
+[13.201343] (-) TimerEvent: {}
+[13.303202] (-) TimerEvent: {}
+[13.404727] (-) TimerEvent: {}
+[13.507350] (-) TimerEvent: {}
+[13.608817] (-) TimerEvent: {}
+[13.710924] (-) TimerEvent: {}
+[13.812486] (-) TimerEvent: {}
+[13.914197] (-) TimerEvent: {}
+[13.960762] (center) StdoutLine: {'line': b'  Determining projects to restore...\n'}
+[14.015052] (-) TimerEvent: {}
+[14.116886] (-) TimerEvent: {}
+[14.218312] (-) TimerEvent: {}
+[14.319983] (-) TimerEvent: {}
+[14.421488] (-) TimerEvent: {}
+[14.523346] (-) TimerEvent: {}
+[14.624832] (-) TimerEvent: {}
+[14.711503] (center) StdoutLine: {'line': b'  All projects are up-to-date for restore.\n'}
+[14.725402] (-) TimerEvent: {}
+[14.826943] (-) TimerEvent: {}
+[14.928515] (-) TimerEvent: {}
+[15.030147] (-) TimerEvent: {}
+[15.135215] (-) TimerEvent: {}
+[15.236740] (-) TimerEvent: {}
+[15.338359] (-) TimerEvent: {}
+[15.439865] (-) TimerEvent: {}
+[15.542065] (-) TimerEvent: {}
+[15.643593] (-) TimerEvent: {}
+[15.745507] (-) TimerEvent: {}
+[15.815326] (center) StdoutLine: {'line': b'  center_assembly_dotnetcore -> /home/osawakousei/ros2_ws/src/center/build/center/netstandard2.0/center_assembly.dll\n'}
+[15.846311] (-) TimerEvent: {}
+[15.856670] (center) StdoutLine: {'line': b'\x1b[39;49m\x1b[92m\n'}
+[15.858561] (center) StdoutLine: {'line': b'\xe3\x83\x93\xe3\x83\xab\xe3\x83\x89\xe3\x81\xab\xe6\x88\x90\xe5\x8a\x9f\xe3\x81\x97\xe3\x81\xbe\xe3\x81\x97\xe3\x81\x9f\xe3\x80\x82\n'}
+[15.859266] (center) StdoutLine: {'line': b'\x1b[39;49m    0 \xe5\x80\x8b\xe3\x81\xae\xe8\xad\xa6\xe5\x91\x8a\n'}
+[15.860044] (center) StdoutLine: {'line': b'\x1b[39;49m    0 \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc\n'}
+[15.860696] (center) StdoutLine: {'line': b'\x1b[39;49m\n'}
+[15.861338] (center) StdoutLine: {'line': b'\xe7\xb5\x8c\xe9\x81\x8e\xe6\x99\x82\xe9\x96\x93 00:00:04.07\n'}
+[15.947058] (-) TimerEvent: {}
+[16.048630] (-) TimerEvent: {}
+[16.099069] (center) StdoutLine: {'line': b'[100%] Built target center_assembly\n'}
+[16.149270] (-) TimerEvent: {}
+[16.250885] (-) TimerEvent: {}
+[16.257890] (center) CommandEnded: {'returncode': 0}
+[16.351744] (-) TimerEvent: {}
+[16.454061] (-) TimerEvent: {}
+[16.556021] (-) TimerEvent: {}
+[16.668345] (-) TimerEvent: {}
+[16.770627] (-) TimerEvent: {}
+[16.872397] (-) TimerEvent: {}
+[16.974417] (-) TimerEvent: {}
+[17.076105] (-) TimerEvent: {}
+[17.178822] (-) TimerEvent: {}
+[17.280385] (-) TimerEvent: {}
+[17.382199] (-) TimerEvent: {}
+[17.483966] (-) TimerEvent: {}
+[17.585979] (-) TimerEvent: {}
+[17.687787] (-) TimerEvent: {}
+[17.789403] (-) TimerEvent: {}
+[17.891324] (-) TimerEvent: {}
+[17.993029] (-) TimerEvent: {}
+[18.094712] (-) TimerEvent: {}
+[18.196394] (-) TimerEvent: {}
+[18.298302] (-) TimerEvent: {}
+[18.400062] (-) TimerEvent: {}
+[18.501904] (-) TimerEvent: {}
+[18.603655] (-) TimerEvent: {}
+[18.705385] (-) TimerEvent: {}
+[18.807343] (-) TimerEvent: {}
+[18.909328] (-) TimerEvent: {}
+[19.011188] (-) TimerEvent: {}
+[19.112701] (-) TimerEvent: {}
+[19.214301] (-) TimerEvent: {}
+[19.315957] (-) TimerEvent: {}
+[19.417533] (-) TimerEvent: {}
+[19.519348] (-) TimerEvent: {}
+[19.621216] (-) TimerEvent: {}
+[19.723693] (-) TimerEvent: {}
+[19.826874] (-) TimerEvent: {}
+[19.928965] (-) TimerEvent: {}
+[20.030976] (-) TimerEvent: {}
+[20.132569] (-) TimerEvent: {}
+[20.234349] (-) TimerEvent: {}
+[20.251881] (center) JobProgress: {'identifier': 'center', 'progress': 'install'}
+[20.335037] (-) TimerEvent: {}
+[20.382161] (center) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/osawakousei/ros2_ws/src/center/build/center'], 'cwd': '/home/osawakousei/ros2_ws/src/center/build/center', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ja:en'), ('USER', 'osawakousei'), ('LC_TIME', 'ja_JP.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/osawakousei/ros2_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/install/android_controll_test/lib:/home/osawakousei/ros2_ws/install/custom_test_msgs/lib:/home/osawakousei/ros2_ws/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/lib:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/lib:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/lib:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent/lib:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/lib:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/osawakousei'), ('OLDPWD', '/home/osawakousei/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('SYSTEMD_EXEC_PID', '1417'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/osawakousei/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osawakousei/ros2_ws/install:/home/osawakousei/ros2_ws/src/android_controll_test/install:/home/osawakousei/ros2_ws/src/custom_message_unity/install:/home/osawakousei/ros2_ws/src/cpp_server_client/install:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install:/home/osawakousei/ros2_ws/src/test_package/install:/home/osawakousei/ros2_ws/uros_ws/install:/home/osawakousei/ros2_ws/src/custom_test_msgs/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'osawakousei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'osawakousei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/osawakousei/.dotnet/tools'), ('SESSION_MANAGER', 'local/kousei-ubuntu:@/tmp/.ICE-unix/1367,unix/kousei-ubuntu:/tmp/.ICE-unix/1367'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7e045606_0beb_45d5_853e_6c471b6087df'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/osawakousei/.cache/dotnet_bundle_extract'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TV35B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.356'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/osawakousei/ros2_ws/src/center/build/center'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osawakousei/ros2_ws/install/rosidl_generator_cs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_test_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/osawakousei/ros2_ws/install/test_package:/home/osawakousei/ros2_ws/install/test_interface_files:/home/osawakousei/ros2_ws/install/rosidl_default_generators:/home/osawakousei/ros2_ws/install/rosidl_generator_cs:/home/osawakousei/ros2_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/install/android_controll_test:/home/osawakousei/ros2_ws/install/custom_test_msgs:/home/osawakousei/ros2_ws/install/custom_message_unity:/home/osawakousei/ros2_ws/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/install/cpp_server_client:/home/osawakousei/ros2_ws/install/rosidl_default_runtime:/home/osawakousei/ros2_ws/install/ros2cs_common:/home/osawakousei/ros2_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/install/dotnet_cmake_module:/home/osawakousei/ros2_ws/install/ament_cmake_export_assemblies:/home/osawakousei/ros2_ws/src/android_controll_test/install/android_controll_test:/home/osawakousei/ros2_ws/src/custom_message_unity/install/custom_message_unity:/home/osawakousei/ros2_ws/src/cpp_server_client/install/cpp_server_client:/home/osawakousei/ros2_ws/src/cpp_topic_pubsub/install/cpp_topic_pubsub:/home/osawakousei/ros2_ws/src/test_package/install/test_package:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_setup:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_agent:/home/osawakousei/ros2_ws/uros_ws/install/micro_ros_msgs:/home/osawakousei/ros2_ws/src/custom_test_msgs/install/custom_test_msgs:/opt/ros/humble')]), 'shell': False}
+[20.435941] (-) TimerEvent: {}
+[20.513891] (center) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.515679] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/rosidl_interfaces/center\n'}
+[20.517233] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center\n'}
+[20.518570] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv\n'}
+[20.520028] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail\n'}
+[20.520880] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__type_support.h\n'}
+[20.523259] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__functions.c\n'}
+[20.524737] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__struct.h\n'}
+[20.525944] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__functions.h\n'}
+[20.526566] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/add_three_ints.h\n'}
+[20.527503] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg\n'}
+[20.528562] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.529525] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail\n'}
+[20.530314] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__struct.h\n'}
+[20.531171] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__type_support.h\n'}
+[20.531864] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__functions.c\n'}
+[20.532706] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__functions.h\n'}
+[20.533285] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/custom_unity.h\n'}
+[20.534337] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/library_path.sh\n'}
+[20.535604] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/library_path.dsv\n'}
+[20.536134] (-) TimerEvent: {}
+[20.536736] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_generator_c.so\n'}
+[20.540598] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center\n'}
+[20.544322] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv\n'}
+[20.545223] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail\n'}
+[20.548345] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[20.550255] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg\n'}
+[20.551145] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail\n'}
+[20.552234] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_c.h\n'}
+[20.552929] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.556616] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_fastrtps_c.so\n'}
+[20.565903] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center\n'}
+[20.567504] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv\n'}
+[20.570386] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail\n'}
+[20.571240] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__traits.hpp\n'}
+[20.572108] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__struct.hpp\n'}
+[20.573584] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__builder.hpp\n'}
+[20.574717] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/add_three_ints.hpp\n'}
+[20.576011] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg\n'}
+[20.577386] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/custom_unity.hpp\n'}
+[20.579325] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail\n'}
+[20.580915] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__builder.hpp\n'}
+[20.582037] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__struct.hpp\n'}
+[20.583080] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__traits.hpp\n'}
+[20.586239] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center\n'}
+[20.587615] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv\n'}
+[20.588291] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail\n'}
+[20.588879] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.589444] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/dds_fastrtps\n'}
+[20.590246] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg\n'}
+[20.590875] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.591444] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail\n'}
+[20.592044] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.592740] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/dds_fastrtps\n'}
+[20.594537] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.600962] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center\n'}
+[20.602941] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv\n'}
+[20.605374] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail\n'}
+[20.607481] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__type_support.c\n'}
+[20.609546] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[20.610509] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg\n'}
+[20.611200] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.611775] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail\n'}
+[20.612336] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_c.h\n'}
+[20.613229] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__type_support.c\n'}
+[20.618072] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_introspection_c.so\n'}
+[20.628581] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_c.so\n'}
+[20.633523] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center\n'}
+[20.635267] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv\n'}
+[20.636195] (-) TimerEvent: {}
+[20.636822] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail\n'}
+[20.637529] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__type_support.cpp\n'}
+[20.639191] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.639822] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg\n'}
+[20.640413] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail\n'}
+[20.640970] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.641842] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/include/center/center/msg/detail/custom_unity__type_support.cpp\n'}
+[20.644674] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_introspection_cpp.so\n'}
+[20.655121] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_typesupport_cpp.so\n'}
+[20.665242] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_c_native.so\n'}
+[20.675728] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_introspection_c_native.so\n'}
+[20.685528] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_custom_unity__rosidl_typesupport_fastrtps_c_native.so\n'}
+[20.695853] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_c_native.so\n'}
+[20.705938] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_introspection_c_native.so\n'}
+[20.715807] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter_srv_add_three_ints__rosidl_typesupport_fastrtps_c_native.so\n'}
+[20.720994] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet\n'}
+[20.722683] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/ros2cs_common.dll\n'}
+[20.724719] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.dll\n'}
+[20.725401] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.deps.json\n'}
+[20.726889] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet\n'}
+[20.728151] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/ros2cs_common.dll\n'}
+[20.728824] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.dll\n'}
+[20.729411] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/dotnet/center_assembly.deps.json\n'}
+[20.730246] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/pythonpath.sh\n'}
+[20.731286] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/pythonpath.dsv\n'}
+[20.731868] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info\n'}
+[20.732885] (center) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.734722] (center) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.735327] (center) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.735904] (center) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.737097] (-) TimerEvent: {}
+[20.738520] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center\n'}
+[20.740137] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.740884] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv\n'}
+[20.742084] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints.py\n'}
+[20.743105] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/__init__.py\n'}
+[20.744171] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv/_add_three_ints_s.c\n'}
+[20.744959] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.746133] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.746731] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/libcenter__rosidl_generator_py.so\n'}
+[20.747305] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/__init__.py\n'}
+[20.747880] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_c.c\n'}
+[20.748526] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[20.749131] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/_center_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.750543] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg\n'}
+[20.751133] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity_s.c\n'}
+[20.751722] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/_custom_unity.py\n'}
+[20.752298] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg/__init__.py\n'}
+[20.838018] (-) TimerEvent: {}
+[20.939710] (-) TimerEvent: {}
+[21.041489] (-) TimerEvent: {}
+[21.046518] (center) StdoutLine: {'line': b"Listing '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center'...\n"}
+[21.047389] (center) StdoutLine: {'line': b"Listing '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/msg'...\n"}
+[21.047964] (center) StdoutLine: {'line': b"Listing '/home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/srv'...\n"}
+[21.064785] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.075965] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.087625] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/local/lib/python3.10/dist-packages/center/center_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.098810] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/libcenter__rosidl_generator_py.so\n'}
+[21.107710] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/msg/CustomUnity.idl\n'}
+[21.111899] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts.idl\n'}
+[21.115157] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/msg/CustomUnity.msg\n'}
+[21.117334] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts.srv\n'}
+[21.120048] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts_Request.msg\n'}
+[21.120863] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/srv/AddThreeInts_Response.msg\n'}
+[21.123738] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/lib/center/center_node\n'}
+[21.131372] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/package_run_dependencies/center\n'}
+[21.134408] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/parent_prefix_path/center\n'}
+[21.137079] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/ament_prefix_path.sh\n'}
+[21.138521] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/ament_prefix_path.dsv\n'}
+[21.140373] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/path.sh\n'}
+[21.141216] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/environment/path.dsv\n'}
+[21.144262] (-) TimerEvent: {}
+[21.145098] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.bash\n'}
+[21.146092] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.sh\n'}
+[21.147249] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.zsh\n'}
+[21.148032] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/local_setup.dsv\n'}
+[21.149169] (center) StdoutLine: {'line': b'-- Installing: /home/osawakousei/ros2_ws/src/center/install/center/share/center/package.dsv\n'}
+[21.150124] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/ament_index/resource_index/packages/center\n'}
+[21.153180] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_cExport.cmake\n'}
+[21.154084] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.155333] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[21.158852] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[21.160805] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_cppExport.cmake\n'}
+[21.161575] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[21.163100] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[21.163833] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.165469] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.168122] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cExport.cmake\n'}
+[21.168732] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.172623] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.173335] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.174355] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cppExport.cmake\n'}
+[21.175907] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/center__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.177911] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_pyExport.cmake\n'}
+[21.179333] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/export_center__rosidl_generator_pyExport-noconfig.cmake\n'}
+[21.180039] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/rosidl_cmake-extras.cmake\n'}
+[21.182003] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.182677] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.183347] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.184098] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.184918] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.186002] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.186799] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/ament_cmake_export_assemblies-extras.cmake\n'}
+[21.187615] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/centerConfig.cmake\n'}
+[21.190656] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/cmake/centerConfig-version.cmake\n'}
+[21.191581] (center) StdoutLine: {'line': b'-- Up-to-date: /home/osawakousei/ros2_ws/src/center/install/center/share/center/package.xml\n'}
+[21.203426] (center) CommandEnded: {'returncode': 0}
+[21.245194] (-) TimerEvent: {}
+[21.347267] (-) TimerEvent: {}
+[21.450496] (-) TimerEvent: {}
+[21.552637] (-) TimerEvent: {}
+[21.654981] (-) TimerEvent: {}
+[21.756676] (-) TimerEvent: {}
+[21.858352] (-) TimerEvent: {}
+[21.960157] (-) TimerEvent: {}
+[22.062171] (-) TimerEvent: {}
+[22.164015] (-) TimerEvent: {}
+[22.266348] (-) TimerEvent: {}
+[22.368104] (-) TimerEvent: {}
+[22.470231] (-) TimerEvent: {}
+[22.571911] (-) TimerEvent: {}
+[22.673579] (-) TimerEvent: {}
+[22.775754] (-) TimerEvent: {}
+[22.877345] (-) TimerEvent: {}
+[22.979226] (-) TimerEvent: {}
+[23.080879] (-) TimerEvent: {}
+[23.182765] (-) TimerEvent: {}
+[23.284708] (-) TimerEvent: {}
+[23.386624] (-) TimerEvent: {}
+[23.488362] (-) TimerEvent: {}
+[23.590164] (-) TimerEvent: {}
+[23.691731] (-) TimerEvent: {}
+[23.793157] (-) TimerEvent: {}
+[23.895113] (-) TimerEvent: {}
+[23.996938] (-) TimerEvent: {}
+[24.099304] (-) TimerEvent: {}
+[24.202180] (-) TimerEvent: {}
+[24.303784] (-) TimerEvent: {}
+[24.406067] (-) TimerEvent: {}
+[24.507768] (-) TimerEvent: {}
+[24.609253] (-) TimerEvent: {}
+[24.711047] (-) TimerEvent: {}
+[24.812746] (-) TimerEvent: {}
+[24.914860] (-) TimerEvent: {}
+[25.016680] (-) TimerEvent: {}
+[25.118324] (-) TimerEvent: {}
+[25.219889] (-) TimerEvent: {}
+[25.321573] (-) TimerEvent: {}
+[25.423651] (-) TimerEvent: {}
+[25.525243] (-) TimerEvent: {}
+[25.627002] (-) TimerEvent: {}
+[25.728790] (-) TimerEvent: {}
+[25.830792] (-) TimerEvent: {}
+[25.932683] (-) TimerEvent: {}
+[26.034887] (-) TimerEvent: {}
+[26.143079] (-) TimerEvent: {}
+[26.245053] (-) TimerEvent: {}
+[26.347859] (-) TimerEvent: {}
+[26.438073] (center) JobEnded: {'identifier': 'center', 'rc': 0}
+[26.446802] (-) EventReactorShutdown: {}

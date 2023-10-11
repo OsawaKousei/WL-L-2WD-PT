@@ -1,0 +1,21 @@
+{
+  "package_name": "center",
+  "output_dir": "/home/osawakousei/ros2_ws/build/center/rosidl_typesupport_fastrtps_c/center",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/osawakousei/ros2_ws/build/center/rosidl_adapter/center:msg/CustomUnity.idl",
+    "/home/osawakousei/ros2_ws/build/center/rosidl_adapter/center:srv/AddThreeInts.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/osawakousei/ros2_ws/build/center/rosidl_adapter/center/msg/CustomUnity.idl",
+    "/home/osawakousei/ros2_ws/build/center/rosidl_adapter/center/srv/AddThreeInts.idl"
+  ]
+}

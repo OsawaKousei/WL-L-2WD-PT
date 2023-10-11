@@ -1,0 +1,2 @@
+Invoking command in '/home/osawakousei/ros2_ws/src/center/build/center': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/center -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/center/install/center
+Invoked command in '/home/osawakousei/ros2_ws/src/center/build/center' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/osawakousei/ros2_ws/src/center -DCMAKE_INSTALL_PREFIX=/home/osawakousei/ros2_ws/src/center/install/center
