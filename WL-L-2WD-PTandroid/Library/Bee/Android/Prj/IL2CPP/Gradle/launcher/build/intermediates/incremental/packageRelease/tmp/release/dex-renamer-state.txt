@@ -1,0 +1,4 @@
+#Sun Oct 08 16:50:24 JST 2023
+base.0=C\:\\Users\\jwith\\OneDrive\\kikaiken\\practice\\RC-2WDProtoType\\WL-L-2WD-PTandroid\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

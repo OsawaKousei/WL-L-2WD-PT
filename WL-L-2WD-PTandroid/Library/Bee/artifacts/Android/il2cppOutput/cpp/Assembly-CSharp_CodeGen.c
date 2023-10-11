@@ -1,0 +1,545 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void buttonScript::Start()
+extern void buttonScript_Start_m185BD94B9A37506A84EC79E2A4B17131680220C0 (void);
+// 0x00000002 System.Void buttonScript::Update()
+extern void buttonScript_Update_m7B758838E0BEA2EA8F3B2AD40B7E8C58BF869427 (void);
+// 0x00000003 System.Void buttonScript::OnButton()
+extern void buttonScript_OnButton_m5CA51FD82CC58AE31E51BB71F596A3AA9307C7D9 (void);
+// 0x00000004 System.Void buttonScript::.ctor()
+extern void buttonScript__ctor_m523DD1133462A29611203508B9FBE2C11D76C44B (void);
+// 0x00000005 System.Void SetID::Start()
+extern void SetID_Start_mDB1AF51A8261EDABECC716998D0FD126084330A9 (void);
+// 0x00000006 System.Void SetID::.ctor()
+extern void SetID__ctor_m0E60618E812BC86CEF5111F18B28C26436009F70 (void);
+// 0x00000007 System.Void stickScript::Start()
+extern void stickScript_Start_mC0E32D75174617184744E2287E9340AFCF6A0D6C (void);
+// 0x00000008 System.Void stickScript::Update()
+extern void stickScript_Update_mD56FB420F73B959E78B9437C1F6041946D981F8A (void);
+// 0x00000009 System.Void stickScript::.ctor()
+extern void stickScript__ctor_m87754F518B0B7DB75BB8A6ADE5CE57B1D1B46BAB (void);
+// 0x0000000A System.Void Readme::.ctor()
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+// 0x0000000B System.Void Readme/Section::.ctor()
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+// 0x0000000C ROS2.ROS2ForUnity/Platform ROS2.ROS2ForUnity::GetOS()
+extern void ROS2ForUnity_GetOS_mAAF3C94E4F0C840BD0391BD03C87C98345244C5C (void);
+// 0x0000000D System.Boolean ROS2.ROS2ForUnity::InEditor()
+extern void ROS2ForUnity_InEditor_m61F4B275B6E70D38772736B4A4E9E9F0221CF613 (void);
+// 0x0000000E System.String ROS2.ROS2ForUnity::GetOSName()
+extern void ROS2ForUnity_GetOSName_m1F5000EE9F40C0D64B9EDE9DECA96148ADB6221A (void);
+// 0x0000000F System.String ROS2.ROS2ForUnity::GetEnvPathVariableName()
+extern void ROS2ForUnity_GetEnvPathVariableName_m5BAEEBFE914BF1C529BFC4FECBF2D65B5E5CB1BE (void);
+// 0x00000010 System.String ROS2.ROS2ForUnity::GetEnvPathVariableValue()
+extern void ROS2ForUnity_GetEnvPathVariableValue_mD3A8B8B74F8DAC20238262E63605D783853138D4 (void);
+// 0x00000011 System.String ROS2.ROS2ForUnity::GetRos2ForUnityPath()
+extern void ROS2ForUnity_GetRos2ForUnityPath_mECDB0595A68BACD1F4A3006A46D89194C3A0F6D6 (void);
+// 0x00000012 System.String ROS2.ROS2ForUnity::GetPluginPath()
+extern void ROS2ForUnity_GetPluginPath_m79482B5413AEC9573052D35AC86A6D5D90CAE395 (void);
+// 0x00000013 System.Void ROS2.ROS2ForUnity::SetEnvPathVariable()
+extern void ROS2ForUnity_SetEnvPathVariable_m4034B3281ADBA6966692DB3049B71A29FEAB81AB (void);
+// 0x00000014 System.Boolean ROS2.ROS2ForUnity::IsStandalone()
+extern void ROS2ForUnity_IsStandalone_mED2D2B09AD326BFBD7CE54B0D8E4F33AC736DCC3 (void);
+// 0x00000015 System.String ROS2.ROS2ForUnity::GetROSVersion()
+extern void ROS2ForUnity_GetROSVersion_m80D49449FBD37FF49FD0452B9FD97C95F479FCFC (void);
+// 0x00000016 System.Void ROS2.ROS2ForUnity::CheckIntegrity()
+extern void ROS2ForUnity_CheckIntegrity_m868CC65BFAC7728B4E80166DF67AA1C5B22753EE (void);
+// 0x00000017 System.String ROS2.ROS2ForUnity::GetROSVersionSourced()
+extern void ROS2ForUnity_GetROSVersionSourced_m9B0AB7B016A4EAEC9A20A98586A39755A7C6D0A3 (void);
+// 0x00000018 System.Void ROS2.ROS2ForUnity::CheckROSSupport(System.String)
+extern void ROS2ForUnity_CheckROSSupport_m4C0525520878188F478D55F83633A2CF0CCAE097 (void);
+// 0x00000019 System.Void ROS2.ROS2ForUnity::RegisterCtrlCHandler()
+extern void ROS2ForUnity_RegisterCtrlCHandler_mFA86E4CE80959ACFEC5C7804D7AF3D1E9E53F8E3 (void);
+// 0x0000001A System.Void ROS2.ROS2ForUnity::ConnectLoggers()
+extern void ROS2ForUnity_ConnectLoggers_mAAA0BB068016E172AFC7B6213C16F01725C48BDC (void);
+// 0x0000001B System.String ROS2.ROS2ForUnity::GetMetadataValue(System.Xml.XmlDocument,System.String)
+extern void ROS2ForUnity_GetMetadataValue_mAD5E9A5C6233A500B972D50DFF32DFF62242BB97 (void);
+// 0x0000001C System.Void ROS2.ROS2ForUnity::LoadMetadata()
+extern void ROS2ForUnity_LoadMetadata_mC74F2BC740C9360F3324A69F1B0AF4759105857E (void);
+// 0x0000001D System.Void ROS2.ROS2ForUnity::.ctor()
+extern void ROS2ForUnity__ctor_mC0FDEDBB943A89DE685E8ED0329C4985191FCD1C (void);
+// 0x0000001E System.Void ROS2.ROS2ForUnity::ThrowIfUninitialized(System.String)
+extern void ROS2ForUnity_ThrowIfUninitialized_m899D665811268501311DC95D93FA971E809A50A7 (void);
+// 0x0000001F System.Boolean ROS2.ROS2ForUnity::Ok()
+extern void ROS2ForUnity_Ok_mB454F45101B22E903BA36688A9B3ECA4207793C7 (void);
+// 0x00000020 System.Void ROS2.ROS2ForUnity::DestroyROS2ForUnity()
+extern void ROS2ForUnity_DestroyROS2ForUnity_m3B598E443D003D64F684809432A7AD7AB44CA42B (void);
+// 0x00000021 System.Void ROS2.ROS2ForUnity::Finalize()
+extern void ROS2ForUnity_Finalize_m9586D34D2BD8673B838F6121379F06B9BFD5EFF4 (void);
+// 0x00000022 System.Void ROS2.ROS2ForUnity::.cctor()
+extern void ROS2ForUnity__cctor_m9D96FBAED406E2438A99B910D7AB0AE8376134EA (void);
+// 0x00000023 System.Void ROS2.ROS2ListenerExample::Start()
+extern void ROS2ListenerExample_Start_mCC0BC94DB8510FCF135BAAC27884D56F097F03D2 (void);
+// 0x00000024 System.Void ROS2.ROS2ListenerExample::Update()
+extern void ROS2ListenerExample_Update_mB6ADFB2B6E50B3668748D9690CC4D38D94E8C6B7 (void);
+// 0x00000025 System.Void ROS2.ROS2ListenerExample::.ctor()
+extern void ROS2ListenerExample__ctor_m1281261F163A3FE72944099C78B280101B9C5D9F (void);
+// 0x00000026 System.Void ROS2.ROS2ListenerExample/<>c::.cctor()
+extern void U3CU3Ec__cctor_m99C9AC7620AAB1049006226BB8778EFC7E2C0E6D (void);
+// 0x00000027 System.Void ROS2.ROS2ListenerExample/<>c::.ctor()
+extern void U3CU3Ec__ctor_m864C6B8B032B32925CD910263A0770CDF9A4A21E (void);
+// 0x00000028 System.Void ROS2.ROS2ListenerExample/<>c::<Update>b__4_0(std_msgs.msg.String)
+extern void U3CU3Ec_U3CUpdateU3Eb__4_0_m719B5DF8AC571E51F56736971FCDC5138DD0CDFF (void);
+// 0x00000029 System.Void ROS2.ROS2Node::.ctor(System.String)
+extern void ROS2Node__ctor_mD95D497E2DEEBB1E9CF48912A88DB4CA189261CD (void);
+// 0x0000002A System.Void ROS2.ROS2Node::Finalize()
+extern void ROS2Node_Finalize_m14B557E5AD029B8B7295BC68866EAB14F615C1D6 (void);
+// 0x0000002B System.Void ROS2.ROS2Node::ThrowIfUninitialized(System.String)
+extern void ROS2Node_ThrowIfUninitialized_m1BA4DD82B6AF151B6546C1717AC38B11D5C7AF31 (void);
+// 0x0000002C ROS2.Publisher`1<T> ROS2.ROS2Node::CreateSensorPublisher(System.String)
+// 0x0000002D ROS2.Publisher`1<T> ROS2.ROS2Node::CreatePublisher(System.String,ROS2.QualityOfServiceProfile)
+// 0x0000002E ROS2.Subscription`1<T> ROS2.ROS2Node::CreateSubscription(System.String,System.Action`1<T>,ROS2.QualityOfServiceProfile)
+// 0x0000002F System.Boolean ROS2.ROS2Node::RemoveSubscription(ROS2.ISubscriptionBase)
+// 0x00000030 System.Boolean ROS2.ROS2Node::RemovePublisher(ROS2.IPublisherBase)
+// 0x00000031 System.Void ROS2.ROS2PerformanceTest::Start()
+extern void ROS2PerformanceTest_Start_mAE4A2FC1B58436723680D74656542383369E1F1C (void);
+// 0x00000032 System.Void ROS2.ROS2PerformanceTest::OnValidate()
+extern void ROS2PerformanceTest_OnValidate_m7AFCBC0C1285226999BEA9D502B0A7159FCA45E7 (void);
+// 0x00000033 System.Void ROS2.ROS2PerformanceTest::Publish()
+extern void ROS2PerformanceTest_Publish_m973EA4E879E2E6D01015C451440C568B1FD40C99 (void);
+// 0x00000034 System.Void ROS2.ROS2PerformanceTest::FixedUpdate()
+extern void ROS2PerformanceTest_FixedUpdate_mC9C1A95A9DB7981C88383240FD5F9E88D3B63EC4 (void);
+// 0x00000035 System.Void ROS2.ROS2PerformanceTest::AssignField(sensor_msgs.msg.PointField&,System.String,System.UInt32,System.Byte,System.UInt32)
+extern void ROS2PerformanceTest_AssignField_m8C98B3AFCCB452F89A1DEEE5D41ED7144F53FB03 (void);
+// 0x00000036 System.Void ROS2.ROS2PerformanceTest::PrepMessage()
+extern void ROS2PerformanceTest_PrepMessage_m07AE3894A37A3A8F2DE6FED05943EECB4D3A1D9E (void);
+// 0x00000037 System.Void ROS2.ROS2PerformanceTest::.ctor()
+extern void ROS2PerformanceTest__ctor_m6E6891C3F6B38877D830738BE0F69081D37587E1 (void);
+// 0x00000038 System.Void ROS2.ROS2PerformanceTest::<FixedUpdate>b__11_0()
+extern void ROS2PerformanceTest_U3CFixedUpdateU3Eb__11_0_mA92F42985E72B4907DBDFF8BA8D8DC3AB68C672E (void);
+// 0x00000039 System.Void ROS2.ROS2TalkerExample::Start()
+extern void ROS2TalkerExample_Start_m664050C4D02B1DEEC5326DABF2E5956A38636279 (void);
+// 0x0000003A System.Void ROS2.ROS2TalkerExample::Update()
+extern void ROS2TalkerExample_Update_mDBB3D246EDFEF22B440D29FF3B40779CCECD82E7 (void);
+// 0x0000003B System.Void ROS2.ROS2TalkerExample::.ctor()
+extern void ROS2TalkerExample__ctor_mD8418FDD1F7D53442D5A4364A9F1AA43AEAD5ECD (void);
+// 0x0000003C System.String ROS2.ROS2UnityComponent::GetPluginPath()
+extern void ROS2UnityComponent_GetPluginPath_m8ED3C8D81829D502DC066E22D745F265BD013241 (void);
+// 0x0000003D System.Boolean ROS2.ROS2UnityComponent::Ok()
+extern void ROS2UnityComponent_Ok_m8DBBE5837A4102FAB84728D428BA7B333BA5D6FD (void);
+// 0x0000003E System.Void ROS2.ROS2UnityComponent::LazyConstruct()
+extern void ROS2UnityComponent_LazyConstruct_m2198CDC3239662346CE077B9AFB40A31FC500782 (void);
+// 0x0000003F System.Void ROS2.ROS2UnityComponent::Start()
+extern void ROS2UnityComponent_Start_mBA36806594CA07D8300A79BD65BA7A499277D5D4 (void);
+// 0x00000040 ROS2.ROS2Node ROS2.ROS2UnityComponent::CreateNode(System.String)
+extern void ROS2UnityComponent_CreateNode_mE82874F003DDF807E109D93E8095B252D2B5DDBD (void);
+// 0x00000041 System.Void ROS2.ROS2UnityComponent::RemoveNode(ROS2.ROS2Node)
+extern void ROS2UnityComponent_RemoveNode_m29D6660896413ADB1645291A13DFB84E45A263BE (void);
+// 0x00000042 System.Void ROS2.ROS2UnityComponent::RegisterExecutable(System.Action)
+extern void ROS2UnityComponent_RegisterExecutable_m72E31CC9FBAAD7C9217A82CBFD9FED1CBA297640 (void);
+// 0x00000043 System.Void ROS2.ROS2UnityComponent::UnregisterExecutable(System.Action)
+extern void ROS2UnityComponent_UnregisterExecutable_mB5491A3673C1D92D5819B142C39B7D50A340BA09 (void);
+// 0x00000044 System.Void ROS2.ROS2UnityComponent::Tick()
+extern void ROS2UnityComponent_Tick_mF36E993C029B8E2E8F6F53107027F7B11DCB3A8B (void);
+// 0x00000045 System.Void ROS2.ROS2UnityComponent::FixedUpdate()
+extern void ROS2UnityComponent_FixedUpdate_m77191268E95388370B3381F8FE1F2BFD4C649D19 (void);
+// 0x00000046 System.Void ROS2.ROS2UnityComponent::OnApplicationQuit()
+extern void ROS2UnityComponent_OnApplicationQuit_m24AFF578221A13B7FEB8622D60D98D7F3A705083 (void);
+// 0x00000047 System.Void ROS2.ROS2UnityComponent::.ctor()
+extern void ROS2UnityComponent__ctor_m83A4DD8C758C93B23E20E50239AEC40F3B70A0FE (void);
+// 0x00000048 System.Void ROS2.ROS2UnityComponent::<FixedUpdate>b__18_0()
+extern void ROS2UnityComponent_U3CFixedUpdateU3Eb__18_0_m4AD52924BD141F8DD6CF0DB25898E0F511A17173 (void);
+// 0x00000049 System.Boolean ROS2.ROS2UnityCore::Ok()
+extern void ROS2UnityCore_Ok_mED83A984EAD4144F960E37DE480B8F12A59F0DA1 (void);
+// 0x0000004A System.Void ROS2.ROS2UnityCore::.ctor()
+extern void ROS2UnityCore__ctor_m7A40E2A23898621A05AC648434EA69101DF56E35 (void);
+// 0x0000004B ROS2.ROS2Node ROS2.ROS2UnityCore::CreateNode(System.String)
+extern void ROS2UnityCore_CreateNode_m7604955375F853D698ADF875795D998F247D7EC9 (void);
+// 0x0000004C System.Void ROS2.ROS2UnityCore::RemoveNode(ROS2.ROS2Node)
+extern void ROS2UnityCore_RemoveNode_m78086FDD493921A17741DBAC9DC25471D015CE9A (void);
+// 0x0000004D System.Void ROS2.ROS2UnityCore::RegisterExecutable(System.Action)
+extern void ROS2UnityCore_RegisterExecutable_m38BB57CE325E40363E30D2605B42156A5CCCD5C1 (void);
+// 0x0000004E System.Void ROS2.ROS2UnityCore::UnregisterExecutable(System.Action)
+extern void ROS2UnityCore_UnregisterExecutable_m7054135A2C651AC05BEB983088117F3A75AACB53 (void);
+// 0x0000004F System.Void ROS2.ROS2UnityCore::Tick()
+extern void ROS2UnityCore_Tick_m54D510F510222E1C5F9AA3EBB18E132EF2F2C17B (void);
+// 0x00000050 System.Void ROS2.ROS2UnityCore::DestroyNow()
+extern void ROS2UnityCore_DestroyNow_m24457AB8951601E0D9BB00DA5510E78F120FF356 (void);
+// 0x00000051 System.Void ROS2.ROS2UnityCore::<.ctor>b__9_0()
+extern void ROS2UnityCore_U3C_ctorU3Eb__9_0_m8C8E0699575338605B717FC0B59152344C5BA8C0 (void);
+// 0x00000052 System.Void ROS2.ISensor::CreateROSParticipants(ROS2.ROS2UnityComponent,ROS2.ROS2Node,System.String)
+// 0x00000053 System.String ROS2.ISensor::frameName()
+// 0x00000054 System.Void ROS2.ISensor::.ctor()
+extern void ISensor__ctor_mFB0E486D3ADDD8E6AD9C77EEB589F4C5DF2F4C44 (void);
+// 0x00000055 T ROS2.Sensor`1::AcquireValue()
+// 0x00000056 System.Boolean ROS2.Sensor`1::HasNewData()
+// 0x00000057 System.String ROS2.Sensor`1::frameName()
+// 0x00000058 System.Void ROS2.Sensor`1::VisualiseEffects()
+// 0x00000059 System.Void ROS2.Sensor`1::OnValidate()
+// 0x0000005A System.Void ROS2.Sensor`1::OnUpdate()
+// 0x0000005B System.Void ROS2.Sensor`1::CreateROSParticipants(ROS2.ROS2UnityComponent,ROS2.ROS2Node,System.String)
+// 0x0000005C System.Void ROS2.Sensor`1::ExecutorThreadSensorPublishAction()
+// 0x0000005D System.Void ROS2.Sensor`1::Update()
+// 0x0000005E System.Void ROS2.Sensor`1::Awake()
+// 0x0000005F System.Void ROS2.Sensor`1::CalculateFrameTime()
+// 0x00000060 System.Void ROS2.Sensor`1::.ctor()
+// 0x00000061 System.Double ROS2.DotnetTimeSource::TotalSystemTimeSeconds()
+extern void DotnetTimeSource_TotalSystemTimeSeconds_m6C05457443A8806BD68068BEBB0721F1FF230A1E (void);
+// 0x00000062 System.Void ROS2.DotnetTimeSource::UpdateSystemTime()
+extern void DotnetTimeSource_UpdateSystemTime_m18FEF84BE03E46A721416B4EC828114EFB6F3E64 (void);
+// 0x00000063 System.Void ROS2.DotnetTimeSource::.ctor()
+extern void DotnetTimeSource__ctor_m8DB4E9D184782FD6B2B868799FF9EB0FF09D7D70 (void);
+// 0x00000064 System.Void ROS2.DotnetTimeSource::GetTime(System.Int32&,System.UInt32&)
+extern void DotnetTimeSource_GetTime_mECAA285E503A2F5CC9990953D519ED1900B8C38D (void);
+// 0x00000065 System.Void ROS2.ITimeSource::GetTime(System.Int32&,System.UInt32&)
+// 0x00000066 System.Void ROS2.ROS2Clock::.ctor()
+extern void ROS2Clock__ctor_m6A3305A87978E410DA7F0147759D4C4D7DC012FE (void);
+// 0x00000067 System.Void ROS2.ROS2Clock::.ctor(ROS2.ITimeSource)
+extern void ROS2Clock__ctor_m7783721DEDD2BEBFC8BC19E2525B8B99C8F36C99 (void);
+// 0x00000068 System.Void ROS2.ROS2Clock::UpdateClockMessage(rosgraph_msgs.msg.Clock&)
+extern void ROS2Clock_UpdateClockMessage_m2CF54EEF5227C1F79DB04120E5D88B09634D8589 (void);
+// 0x00000069 System.Void ROS2.ROS2Clock::UpdateROSClockTime(builtin_interfaces.msg.Time)
+extern void ROS2Clock_UpdateROSClockTime_m46F86B650D0826B42D01DBB8433DC10B6190F62C (void);
+// 0x0000006A System.Void ROS2.ROS2Clock::UpdateROSTimestamp(ROS2.MessageWithHeader&)
+extern void ROS2Clock_UpdateROSTimestamp_mE8E01A3859B4AA34881E5772B69D07410CCB5277 (void);
+// 0x0000006B System.Void ROS2.ROS2TimeSource::GetTime(System.Int32&,System.UInt32&)
+extern void ROS2TimeSource_GetTime_m58A391ACBB4F03BA94B617435415CA0C3DE24370 (void);
+// 0x0000006C System.Void ROS2.ROS2TimeSource::Finalize()
+extern void ROS2TimeSource_Finalize_m4111E0A9E18EC3841656243410E092E3A6C1D6C3 (void);
+// 0x0000006D System.Void ROS2.ROS2TimeSource::.ctor()
+extern void ROS2TimeSource__ctor_m7E10F4A1EB9976825073373CAE9498F2CE51D6C3 (void);
+// 0x0000006E System.Void ROS2.TimeUtils::TimeFromTotalSeconds(System.Double&,System.Int32&,System.UInt32&)
+extern void TimeUtils_TimeFromTotalSeconds_mBF88659D986DD3681E695E6CD2B907802D877998 (void);
+// 0x0000006F System.Void ROS2.UnityTimeSource::.ctor()
+extern void UnityTimeSource__ctor_m193F948F01A85FC6D46F13EEA643075F0D066C0E (void);
+// 0x00000070 System.Void ROS2.UnityTimeSource::GetTime(System.Int32&,System.UInt32&)
+extern void UnityTimeSource_GetTime_mADD0B68EE2BB052482A7A661A213C01F46A625C8 (void);
+// 0x00000071 UnityEngine.Vector3 ROS2.Transformations::Ros2Unity(UnityEngine.Vector3)
+extern void Transformations_Ros2Unity_mA86723F13F6678D94A2B357401EC0F7D7EE0DCC3 (void);
+// 0x00000072 UnityEngine.Vector3 ROS2.Transformations::Unity2Ros(UnityEngine.Vector3)
+extern void Transformations_Unity2Ros_mF4B591E2AD426C704BCE901BFF3FA3F56FF34F42 (void);
+// 0x00000073 UnityEngine.Vector3 ROS2.Transformations::Ros2UnityScale(UnityEngine.Vector3)
+extern void Transformations_Ros2UnityScale_mA211A6FA820DE05A9F47A3C5D46C4C64C85D6344 (void);
+// 0x00000074 UnityEngine.Vector3 ROS2.Transformations::Unity2RosScale(UnityEngine.Vector3)
+extern void Transformations_Unity2RosScale_mF8DACD9F1B46135628115AF2AAA046B836B11DA1 (void);
+// 0x00000075 UnityEngine.Quaternion ROS2.Transformations::Ros2Unity(UnityEngine.Quaternion)
+extern void Transformations_Ros2Unity_m7F3D187E877D7F980C8FBCB7BC4436454C57F0C7 (void);
+// 0x00000076 UnityEngine.Quaternion ROS2.Transformations::Unity2Ros(UnityEngine.Quaternion)
+extern void Transformations_Unity2Ros_m4AF50555A48213881E9438A77A74AADE863EDFC1 (void);
+// 0x00000077 System.Void ROS2.Transformations::Unity2Ros(UnityEngine.Quaternion&)
+extern void Transformations_Unity2Ros_mDBC8A38AE50AE09A0BBCFE8270D057DBDC6E173C (void);
+// 0x00000078 System.Void ROS2.Transformations::Unity2Ros(UnityEngine.Vector3&)
+extern void Transformations_Unity2Ros_m58D1FDAC3A0239D3EF0DA5C9D1644FAEC0A1DEEA (void);
+// 0x00000079 UnityEngine.Matrix4x4 ROS2.Transformations::Unity2RosMatrix4x4()
+extern void Transformations_Unity2RosMatrix4x4_m4018EBFBDDBA31474E43D63FE78B77008FCA9B0B (void);
+static Il2CppMethodPointer s_methodPointers[121] = 
+{
+	buttonScript_Start_m185BD94B9A37506A84EC79E2A4B17131680220C0,
+	buttonScript_Update_m7B758838E0BEA2EA8F3B2AD40B7E8C58BF869427,
+	buttonScript_OnButton_m5CA51FD82CC58AE31E51BB71F596A3AA9307C7D9,
+	buttonScript__ctor_m523DD1133462A29611203508B9FBE2C11D76C44B,
+	SetID_Start_mDB1AF51A8261EDABECC716998D0FD126084330A9,
+	SetID__ctor_m0E60618E812BC86CEF5111F18B28C26436009F70,
+	stickScript_Start_mC0E32D75174617184744E2287E9340AFCF6A0D6C,
+	stickScript_Update_mD56FB420F73B959E78B9437C1F6041946D981F8A,
+	stickScript__ctor_m87754F518B0B7DB75BB8A6ADE5CE57B1D1B46BAB,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	ROS2ForUnity_GetOS_mAAF3C94E4F0C840BD0391BD03C87C98345244C5C,
+	ROS2ForUnity_InEditor_m61F4B275B6E70D38772736B4A4E9E9F0221CF613,
+	ROS2ForUnity_GetOSName_m1F5000EE9F40C0D64B9EDE9DECA96148ADB6221A,
+	ROS2ForUnity_GetEnvPathVariableName_m5BAEEBFE914BF1C529BFC4FECBF2D65B5E5CB1BE,
+	ROS2ForUnity_GetEnvPathVariableValue_mD3A8B8B74F8DAC20238262E63605D783853138D4,
+	ROS2ForUnity_GetRos2ForUnityPath_mECDB0595A68BACD1F4A3006A46D89194C3A0F6D6,
+	ROS2ForUnity_GetPluginPath_m79482B5413AEC9573052D35AC86A6D5D90CAE395,
+	ROS2ForUnity_SetEnvPathVariable_m4034B3281ADBA6966692DB3049B71A29FEAB81AB,
+	ROS2ForUnity_IsStandalone_mED2D2B09AD326BFBD7CE54B0D8E4F33AC736DCC3,
+	ROS2ForUnity_GetROSVersion_m80D49449FBD37FF49FD0452B9FD97C95F479FCFC,
+	ROS2ForUnity_CheckIntegrity_m868CC65BFAC7728B4E80166DF67AA1C5B22753EE,
+	ROS2ForUnity_GetROSVersionSourced_m9B0AB7B016A4EAEC9A20A98586A39755A7C6D0A3,
+	ROS2ForUnity_CheckROSSupport_m4C0525520878188F478D55F83633A2CF0CCAE097,
+	ROS2ForUnity_RegisterCtrlCHandler_mFA86E4CE80959ACFEC5C7804D7AF3D1E9E53F8E3,
+	ROS2ForUnity_ConnectLoggers_mAAA0BB068016E172AFC7B6213C16F01725C48BDC,
+	ROS2ForUnity_GetMetadataValue_mAD5E9A5C6233A500B972D50DFF32DFF62242BB97,
+	ROS2ForUnity_LoadMetadata_mC74F2BC740C9360F3324A69F1B0AF4759105857E,
+	ROS2ForUnity__ctor_mC0FDEDBB943A89DE685E8ED0329C4985191FCD1C,
+	ROS2ForUnity_ThrowIfUninitialized_m899D665811268501311DC95D93FA971E809A50A7,
+	ROS2ForUnity_Ok_mB454F45101B22E903BA36688A9B3ECA4207793C7,
+	ROS2ForUnity_DestroyROS2ForUnity_m3B598E443D003D64F684809432A7AD7AB44CA42B,
+	ROS2ForUnity_Finalize_m9586D34D2BD8673B838F6121379F06B9BFD5EFF4,
+	ROS2ForUnity__cctor_m9D96FBAED406E2438A99B910D7AB0AE8376134EA,
+	ROS2ListenerExample_Start_mCC0BC94DB8510FCF135BAAC27884D56F097F03D2,
+	ROS2ListenerExample_Update_mB6ADFB2B6E50B3668748D9690CC4D38D94E8C6B7,
+	ROS2ListenerExample__ctor_m1281261F163A3FE72944099C78B280101B9C5D9F,
+	U3CU3Ec__cctor_m99C9AC7620AAB1049006226BB8778EFC7E2C0E6D,
+	U3CU3Ec__ctor_m864C6B8B032B32925CD910263A0770CDF9A4A21E,
+	U3CU3Ec_U3CUpdateU3Eb__4_0_m719B5DF8AC571E51F56736971FCDC5138DD0CDFF,
+	ROS2Node__ctor_mD95D497E2DEEBB1E9CF48912A88DB4CA189261CD,
+	ROS2Node_Finalize_m14B557E5AD029B8B7295BC68866EAB14F615C1D6,
+	ROS2Node_ThrowIfUninitialized_m1BA4DD82B6AF151B6546C1717AC38B11D5C7AF31,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	ROS2PerformanceTest_Start_mAE4A2FC1B58436723680D74656542383369E1F1C,
+	ROS2PerformanceTest_OnValidate_m7AFCBC0C1285226999BEA9D502B0A7159FCA45E7,
+	ROS2PerformanceTest_Publish_m973EA4E879E2E6D01015C451440C568B1FD40C99,
+	ROS2PerformanceTest_FixedUpdate_mC9C1A95A9DB7981C88383240FD5F9E88D3B63EC4,
+	ROS2PerformanceTest_AssignField_m8C98B3AFCCB452F89A1DEEE5D41ED7144F53FB03,
+	ROS2PerformanceTest_PrepMessage_m07AE3894A37A3A8F2DE6FED05943EECB4D3A1D9E,
+	ROS2PerformanceTest__ctor_m6E6891C3F6B38877D830738BE0F69081D37587E1,
+	ROS2PerformanceTest_U3CFixedUpdateU3Eb__11_0_mA92F42985E72B4907DBDFF8BA8D8DC3AB68C672E,
+	ROS2TalkerExample_Start_m664050C4D02B1DEEC5326DABF2E5956A38636279,
+	ROS2TalkerExample_Update_mDBB3D246EDFEF22B440D29FF3B40779CCECD82E7,
+	ROS2TalkerExample__ctor_mD8418FDD1F7D53442D5A4364A9F1AA43AEAD5ECD,
+	ROS2UnityComponent_GetPluginPath_m8ED3C8D81829D502DC066E22D745F265BD013241,
+	ROS2UnityComponent_Ok_m8DBBE5837A4102FAB84728D428BA7B333BA5D6FD,
+	ROS2UnityComponent_LazyConstruct_m2198CDC3239662346CE077B9AFB40A31FC500782,
+	ROS2UnityComponent_Start_mBA36806594CA07D8300A79BD65BA7A499277D5D4,
+	ROS2UnityComponent_CreateNode_mE82874F003DDF807E109D93E8095B252D2B5DDBD,
+	ROS2UnityComponent_RemoveNode_m29D6660896413ADB1645291A13DFB84E45A263BE,
+	ROS2UnityComponent_RegisterExecutable_m72E31CC9FBAAD7C9217A82CBFD9FED1CBA297640,
+	ROS2UnityComponent_UnregisterExecutable_mB5491A3673C1D92D5819B142C39B7D50A340BA09,
+	ROS2UnityComponent_Tick_mF36E993C029B8E2E8F6F53107027F7B11DCB3A8B,
+	ROS2UnityComponent_FixedUpdate_m77191268E95388370B3381F8FE1F2BFD4C649D19,
+	ROS2UnityComponent_OnApplicationQuit_m24AFF578221A13B7FEB8622D60D98D7F3A705083,
+	ROS2UnityComponent__ctor_m83A4DD8C758C93B23E20E50239AEC40F3B70A0FE,
+	ROS2UnityComponent_U3CFixedUpdateU3Eb__18_0_m4AD52924BD141F8DD6CF0DB25898E0F511A17173,
+	ROS2UnityCore_Ok_mED83A984EAD4144F960E37DE480B8F12A59F0DA1,
+	ROS2UnityCore__ctor_m7A40E2A23898621A05AC648434EA69101DF56E35,
+	ROS2UnityCore_CreateNode_m7604955375F853D698ADF875795D998F247D7EC9,
+	ROS2UnityCore_RemoveNode_m78086FDD493921A17741DBAC9DC25471D015CE9A,
+	ROS2UnityCore_RegisterExecutable_m38BB57CE325E40363E30D2605B42156A5CCCD5C1,
+	ROS2UnityCore_UnregisterExecutable_m7054135A2C651AC05BEB983088117F3A75AACB53,
+	ROS2UnityCore_Tick_m54D510F510222E1C5F9AA3EBB18E132EF2F2C17B,
+	ROS2UnityCore_DestroyNow_m24457AB8951601E0D9BB00DA5510E78F120FF356,
+	ROS2UnityCore_U3C_ctorU3Eb__9_0_m8C8E0699575338605B717FC0B59152344C5BA8C0,
+	NULL,
+	NULL,
+	ISensor__ctor_mFB0E486D3ADDD8E6AD9C77EEB589F4C5DF2F4C44,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	DotnetTimeSource_TotalSystemTimeSeconds_m6C05457443A8806BD68068BEBB0721F1FF230A1E,
+	DotnetTimeSource_UpdateSystemTime_m18FEF84BE03E46A721416B4EC828114EFB6F3E64,
+	DotnetTimeSource__ctor_m8DB4E9D184782FD6B2B868799FF9EB0FF09D7D70,
+	DotnetTimeSource_GetTime_mECAA285E503A2F5CC9990953D519ED1900B8C38D,
+	NULL,
+	ROS2Clock__ctor_m6A3305A87978E410DA7F0147759D4C4D7DC012FE,
+	ROS2Clock__ctor_m7783721DEDD2BEBFC8BC19E2525B8B99C8F36C99,
+	ROS2Clock_UpdateClockMessage_m2CF54EEF5227C1F79DB04120E5D88B09634D8589,
+	ROS2Clock_UpdateROSClockTime_m46F86B650D0826B42D01DBB8433DC10B6190F62C,
+	ROS2Clock_UpdateROSTimestamp_mE8E01A3859B4AA34881E5772B69D07410CCB5277,
+	ROS2TimeSource_GetTime_m58A391ACBB4F03BA94B617435415CA0C3DE24370,
+	ROS2TimeSource_Finalize_m4111E0A9E18EC3841656243410E092E3A6C1D6C3,
+	ROS2TimeSource__ctor_m7E10F4A1EB9976825073373CAE9498F2CE51D6C3,
+	TimeUtils_TimeFromTotalSeconds_mBF88659D986DD3681E695E6CD2B907802D877998,
+	UnityTimeSource__ctor_m193F948F01A85FC6D46F13EEA643075F0D066C0E,
+	UnityTimeSource_GetTime_mADD0B68EE2BB052482A7A661A213C01F46A625C8,
+	Transformations_Ros2Unity_mA86723F13F6678D94A2B357401EC0F7D7EE0DCC3,
+	Transformations_Unity2Ros_mF4B591E2AD426C704BCE901BFF3FA3F56FF34F42,
+	Transformations_Ros2UnityScale_mA211A6FA820DE05A9F47A3C5D46C4C64C85D6344,
+	Transformations_Unity2RosScale_mF8DACD9F1B46135628115AF2AAA046B836B11DA1,
+	Transformations_Ros2Unity_m7F3D187E877D7F980C8FBCB7BC4436454C57F0C7,
+	Transformations_Unity2Ros_m4AF50555A48213881E9438A77A74AADE863EDFC1,
+	Transformations_Unity2Ros_mDBC8A38AE50AE09A0BBCFE8270D057DBDC6E173C,
+	Transformations_Unity2Ros_m58D1FDAC3A0239D3EF0DA5C9D1644FAEC0A1DEEA,
+	Transformations_Unity2RosMatrix4x4_m4018EBFBDDBA31474E43D63FE78B77008FCA9B0B,
+};
+static const int32_t s_InvokerIndices[121] = 
+{
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	8608,
+	8586,
+	8616,
+	5778,
+	5778,
+	8616,
+	8616,
+	5889,
+	5684,
+	5778,
+	5889,
+	5778,
+	4722,
+	5889,
+	5889,
+	2056,
+	5889,
+	5889,
+	8469,
+	5684,
+	5889,
+	5889,
+	8655,
+	5889,
+	5889,
+	5889,
+	8655,
+	5889,
+	4722,
+	4722,
+	5889,
+	8469,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5889,
+	5889,
+	5889,
+	5889,
+	416,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5778,
+	5684,
+	5889,
+	5889,
+	4176,
+	4722,
+	4722,
+	4722,
+	5889,
+	5889,
+	5889,
+	5889,
+	5889,
+	5684,
+	5889,
+	4176,
+	4722,
+	4722,
+	4722,
+	5889,
+	5889,
+	5889,
+	0,
+	0,
+	5889,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5703,
+	5889,
+	5889,
+	2187,
+	0,
+	5889,
+	4722,
+	4618,
+	4722,
+	4618,
+	2187,
+	5889,
+	5889,
+	7246,
+	5889,
+	2187,
+	8448,
+	8448,
+	8448,
+	8448,
+	8328,
+	8328,
+	8457,
+	8457,
+	8614,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[4] = 
+{
+	{ 0x02000011, { 3, 12 } },
+	{ 0x0600002C, { 0, 1 } },
+	{ 0x0600002D, { 1, 1 } },
+	{ 0x0600002E, { 2, 1 } },
+};
+extern const uint32_t g_rgctx_ROS2Node_CreatePublisher_TisT_tE0E0B6501BAAFA114EA5678417C9329494379257_m776736F3D5E03D936FFD9AF80FCA705BEA632BC5;
+extern const uint32_t g_rgctx_INode_CreatePublisher_TisT_tD1C70F064DE8E570206C1DE5B2402D292192DD3B_m06ACBECDC16413B81D0E9A36FDFFAC7080AC0698;
+extern const uint32_t g_rgctx_INode_CreateSubscription_TisT_t50527BF772E6D952F78946080F12BA2F269EB3CD_mE5352FBA5761CD767A520B3EABE4E6545385342F;
+extern const uint32_t g_rgctx_Sensor_1_CalculateFrameTime_mE8845AB2EA00D8F84B7A9B01A9E80E9B94DD9402;
+extern const uint32_t g_rgctx_ROS2Node_CreateSensorPublisher_TisT_t70706D6F826EC03327D2AD01A1E0582A8BD20224_m15A492C9B96AE39B26960A66325B2F78FFCB3CFC;
+extern const uint32_t g_rgctx_Sensor_1_ExecutorThreadSensorPublishAction_m5DFD5A7E62842742ABA7F56C01B48176D60ECBDA;
+extern const uint32_t g_rgctx_Sensor_1_tC4BC34F79B7EC43C9F39C7CA45D9594A8FBA887E;
+extern const uint32_t g_rgctx_Sensor_1_HasNewData_mF6E13BF46FEEF49D884155DA8FE062B1071816A9;
+extern const uint32_t g_rgctx_Sensor_1_AcquireValue_mC71459C8A2D7780AC5968EE8A593C59963D778F9;
+extern const uint32_t g_rgctx_T_t70706D6F826EC03327D2AD01A1E0582A8BD20224;
+extern const Il2CppRGCTXConstrainedData g_rgctx_T_t70706D6F826EC03327D2AD01A1E0582A8BD20224_MessageWithHeader_SetHeaderFrame_m0831F419C3ED43DFF6339F97553CF1EF1C5DDDFE;
+extern const uint32_t g_rgctx_Publisher_1_tB47EEF063240133EEDB6E51E3F1C5FE2EE513AFB;
+extern const uint32_t g_rgctx_Publisher_1_Publish_m5D6244860103CD7C8D899EBA3AD669F6E857268D;
+extern const uint32_t g_rgctx_Sensor_1_VisualiseEffects_mC2D20EF15CDDB46977294A5A1584935C4010651A;
+extern const uint32_t g_rgctx_Sensor_1_OnUpdate_mE565E9F0045E3D073D06084140099E4EC9DEE1CB;
+static const Il2CppRGCTXDefinition s_rgctxValues[15] = 
+{
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ROS2Node_CreatePublisher_TisT_tE0E0B6501BAAFA114EA5678417C9329494379257_m776736F3D5E03D936FFD9AF80FCA705BEA632BC5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_INode_CreatePublisher_TisT_tD1C70F064DE8E570206C1DE5B2402D292192DD3B_m06ACBECDC16413B81D0E9A36FDFFAC7080AC0698 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_INode_CreateSubscription_TisT_t50527BF772E6D952F78946080F12BA2F269EB3CD_mE5352FBA5761CD767A520B3EABE4E6545385342F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Sensor_1_CalculateFrameTime_mE8845AB2EA00D8F84B7A9B01A9E80E9B94DD9402 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ROS2Node_CreateSensorPublisher_TisT_t70706D6F826EC03327D2AD01A1E0582A8BD20224_m15A492C9B96AE39B26960A66325B2F78FFCB3CFC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Sensor_1_ExecutorThreadSensorPublishAction_m5DFD5A7E62842742ABA7F56C01B48176D60ECBDA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Sensor_1_tC4BC34F79B7EC43C9F39C7CA45D9594A8FBA887E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Sensor_1_HasNewData_mF6E13BF46FEEF49D884155DA8FE062B1071816A9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Sensor_1_AcquireValue_mC71459C8A2D7780AC5968EE8A593C59963D778F9 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t70706D6F826EC03327D2AD01A1E0582A8BD20224 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_T_t70706D6F826EC03327D2AD01A1E0582A8BD20224_MessageWithHeader_SetHeaderFrame_m0831F419C3ED43DFF6339F97553CF1EF1C5DDDFE },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Publisher_1_tB47EEF063240133EEDB6E51E3F1C5FE2EE513AFB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Publisher_1_Publish_m5D6244860103CD7C8D899EBA3AD669F6E857268D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Sensor_1_VisualiseEffects_mC2D20EF15CDDB46977294A5A1584935C4010651A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Sensor_1_OnUpdate_mE565E9F0045E3D073D06084140099E4EC9DEE1CB },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	121,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	4,
+	s_rgctxIndices,
+	15,
+	s_rgctxValues,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
